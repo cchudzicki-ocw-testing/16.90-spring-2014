@@ -9,18 +9,18 @@ title: 1.2 Discretizing ODEs
 uid: 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5
 ---
 
-*   {{< resource_link 0baef83e-dfb4-b312-66ed-4f9fe5c876ba "\<Discretization" >}}
-*   {{< resource_link f239c31a-53e6-28b3-a06a-8e6fff5ed57c "1.2.1First-Order ODEs" >}}
-*   {{< resource_link 18e3e2fd-45b7-38b5-b9bb-4940200d150a "1.2.2An Example of First Order ODE" >}}
-*   {{< resource_link 0baef83e-dfb4-b312-66ed-4f9fe5c876ba "1.2.3Discretization" >}}
-*   {{< resource_link 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5 "1.2.4The Forward Euler Method" >}}
-*   {{< resource_link ae250ef9-53d1-78da-8810-f88b0aaa6408 "1.2.5The Midpoint Method" >}}
-*   {{< resource_link ae250ef9-53d1-78da-8810-f88b0aaa6408 "\>The Midpoint Method" >}}
+*   {{% resource_link 0baef83e-dfb4-b312-66ed-4f9fe5c876ba "\<Discretization" %}}
+*   {{% resource_link f239c31a-53e6-28b3-a06a-8e6fff5ed57c "1.2.1First-Order ODEs" %}}
+*   {{% resource_link 18e3e2fd-45b7-38b5-b9bb-4940200d150a "1.2.2An Example of First Order ODE" %}}
+*   {{% resource_link 0baef83e-dfb4-b312-66ed-4f9fe5c876ba "1.2.3Discretization" %}}
+*   {{% resource_link 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5 "1.2.4The Forward Euler Method" %}}
+*   {{% resource_link ae250ef9-53d1-78da-8810-f88b0aaa6408 "1.2.5The Midpoint Method" %}}
+*   {{% resource_link ae250ef9-53d1-78da-8810-f88b0aaa6408 "\>The Midpoint Method" %}}
 
 1.2.4 The Forward Euler Method
 ------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.5" "#anchorMO15" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.5" "#anchorMO15" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" %}}
 
 We now consider our first numerical method for ODE integration, the forward Euler method. The general problem we wish to solve is to approximate the solution \\(u(t)\\) for Equation [1.8](javascript: void(0)) with an appropriate initial condition, \\(u(0) = u\_0\\). Usually, we are interested in approximating this solution over some range of \\(t\\), say from \\(t = 0\\) to \\(t = T\\). Or, we may not know a precise final time but wish to integrate forward in time until an event occurs (e.g. the problem reaches a steady state). In either case, the basic philosophy of numerical integration using finite difference methods is to start from a known initial state, \\(u(0)\\), and somehow approximate the solution a small time forward, \\(u({\\Delta t})\\) where \\({\\Delta t}\\) is a small time increment. Then, we repeat this process and move forward to the next time to find, \\(u(2{\\Delta t})\\), and so on. Initially, we will consider the situation in which \\({\\Delta t}\\) is fixed for the entire integration from \\(t=0\\) to \\(T\\). However, the best methods for solving ODE's tend to be adaptive methods in which \\({\\Delta t}\\) is adjusted depending on the current approximation.
 
@@ -203,7 +203,7 @@ At that altitude, the properties of the atmosphere are:
 
 {{< tableclose >}}
 
-We expect the particle to accelerate until it reaches its terminal velocity which will occur when the drag force is equal to the gravitational force. But, a priori, we do not know how long that will take (in class, we will discuss some ways to make this estimate). For now, let's set \\(T= 25\\, sec\\) and use a timestep of \\({\\Delta t}= 0.25\\, sec\\). The results are shown in Figure {{< resource_link 487b31d3-d2ad-4959-06b8-d544163ada30 "1.2" >}}.
+We expect the particle to accelerate until it reaches its terminal velocity which will occur when the drag force is equal to the gravitational force. But, a priori, we do not know how long that will take (in class, we will discuss some ways to make this estimate). For now, let's set \\(T= 25\\, sec\\) and use a timestep of \\({\\Delta t}= 0.25\\, sec\\). The results are shown in Figure {{% resource_link 487b31d3-d2ad-4959-06b8-d544163ada30 "1.2" %}}.
 
 {{< resource 487b31d3-d2ad-4959-06b8-d544163ada30 >}}
 

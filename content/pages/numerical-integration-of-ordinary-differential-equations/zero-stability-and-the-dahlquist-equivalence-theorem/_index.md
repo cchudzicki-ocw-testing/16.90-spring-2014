@@ -9,18 +9,18 @@ title: 1.5 Zero Stability and the Dahlquist Equivalence Theorem
 uid: fab29380-eb66-91e4-e3ce-4dfce3f50fbe
 ---
 
-*   {{< resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "\<Rate of Convergence Global Order of Accuracy" >}}
-*   {{< resource_link fab29380-eb66-91e4-e3ce-4dfce3f50fbe "1.5.1Consistency" >}}
-*   {{< resource_link 69a13333-afb5-90ee-d339-c7fba31529fd "1.5.2Stability" >}}
-*   {{< resource_link e726e961-fd26-9620-907a-1248b173744d "1.5.3Dahlquist Equivalence Theorem" >}}
-*   {{< resource_link 69a13333-afb5-90ee-d339-c7fba31529fd "\>Stability" >}}
+*   {{% resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "\<Rate of Convergence Global Order of Accuracy" %}}
+*   {{% resource_link fab29380-eb66-91e4-e3ce-4dfce3f50fbe "1.5.1Consistency" %}}
+*   {{% resource_link 69a13333-afb5-90ee-d339-c7fba31529fd "1.5.2Stability" %}}
+*   {{% resource_link e726e961-fd26-9620-907a-1248b173744d "1.5.3Dahlquist Equivalence Theorem" %}}
+*   {{% resource_link 69a13333-afb5-90ee-d339-c7fba31529fd "\>Stability" %}}
 
 1.5.1 Consistency
 -----------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.8" "#anchorMO18" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.8" "#anchorMO18" %}}
 
-As given in Section {{< resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "1.3.4" >}}, an \\(s\\)-step multi-step method can be written as,
+As given in Section {{% resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "1.3.4" %}}, an \\(s\\)-step multi-step method can be written as,
 
 {{< tableopen >}}
 {{< tropen >}}

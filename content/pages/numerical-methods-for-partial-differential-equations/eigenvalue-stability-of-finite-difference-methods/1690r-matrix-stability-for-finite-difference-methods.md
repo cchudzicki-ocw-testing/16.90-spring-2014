@@ -9,19 +9,19 @@ title: 2.7 Eigenvalue Stability of Finite Difference Methods
 uid: 3e2eea01-ee64-f3f7-264f-4d9e57b3b622
 ---
 
-*   {{< resource_link 935b6a61-8d7d-2772-6ca1-df78ee864834 "\<Eigenvalue Stability of Finite Difference Methods" >}}
-*   {{< resource_link 935b6a61-8d7d-2772-6ca1-df78ee864834 "2.7.1Fourier Analysis of PDEs" >}}
-*   {{< resource_link 3e2eea01-ee64-f3f7-264f-4d9e57b3b622 "2.7.2Matrix Stability for Finite Difference Methods" >}}
-*   {{< resource_link c4a73127-b3ff-feee-5cd9-2e3e6319d356 "2.7.3Circulant Matrices" >}}
-*   {{< resource_link cb633bb1-3925-0ab5-7f90-8bb74bb848bb "2.7.4Stability Exercises" >}}
-*   {{< resource_link c4a73127-b3ff-feee-5cd9-2e3e6319d356 "\>Circulant Matrices" >}}
+*   {{% resource_link 935b6a61-8d7d-2772-6ca1-df78ee864834 "\<Eigenvalue Stability of Finite Difference Methods" %}}
+*   {{% resource_link 935b6a61-8d7d-2772-6ca1-df78ee864834 "2.7.1Fourier Analysis of PDEs" %}}
+*   {{% resource_link 3e2eea01-ee64-f3f7-264f-4d9e57b3b622 "2.7.2Matrix Stability for Finite Difference Methods" %}}
+*   {{% resource_link c4a73127-b3ff-feee-5cd9-2e3e6319d356 "2.7.3Circulant Matrices" %}}
+*   {{% resource_link cb633bb1-3925-0ab5-7f90-8bb74bb848bb "2.7.4Stability Exercises" %}}
+*   {{% resource_link c4a73127-b3ff-feee-5cd9-2e3e6319d356 "\>Circulant Matrices" %}}
 
 2.7.2 Matrix Stability for Finite Difference Methods
 ----------------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.2" "#anchorMO22" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.9" "#anchorMO29" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.10" "#anchorMO210" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.11" "#anchorMO211" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.2" "#anchorMO22" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.9" "#anchorMO29" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.10" "#anchorMO210" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.11" "#anchorMO211" %}}
 
-As we saw in Section {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2" >}}, finite difference (or finite volume) approximations can potentially be written in a semi-discrete form as,
+As we saw in Section {{% resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2" %}}, finite difference (or finite volume) approximations can potentially be written in a semi-discrete form as,
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -124,7 +124,7 @@ First, we substitute \\(V(t)\\) into Equation ([2.133](javascript: void(0))),
 
 {{< tableclose >}}
 
-Thus, the perturbation must satisfy the homogeneous equation, \\(e\_ t = A e\\). Having studied the behavior of linear system of equations in Section {{< resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "1.6.2" >}}, we know that \\(e(t)\\) will grow unbounded as \\(t \\rightarrow \\infty\\) if any of the real parts of the eigenvalues of \\(A\\) are positive.
+Thus, the perturbation must satisfy the homogeneous equation, \\(e\_ t = A e\\). Having studied the behavior of linear system of equations in Section {{% resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "1.6.2" %}}, we know that \\(e(t)\\) will grow unbounded as \\(t \\rightarrow \\infty\\) if any of the real parts of the eigenvalues of \\(A\\) are positive.
 
 The problem is that determining the eigenvalues of \\(A\\) can be non-trivial. In fact, for a general problem finding the eigenvalues of \\(A\\) can be about as hard as solving the specific problem. So, while the matrix stability method is quite general, it can also require a lot of time to perform. Still, the matrix stability method is an indispensible part of the numerical analysis toolkit.
 
@@ -148,7 +148,7 @@ Earlier, we used a forward time, central space (FTCS) discretization for 1-d con
 
 {{< tableclose >}}
 
-Since this method is explicit, the matrix \\(A\\) does not need to be constructed directly, rather Equation ([2.138](javascript: void(0))) can be used to find the new values of \\(U\\) at each point \\(i\\). However, if we are interested in calculating the eigenvalues to analyze the eigenvalue stability, then the \\(A\\) matrix is required. The following script does exactly that (i.e. calculates \\(A\\), determines the eigenvalues of \\(A\\), and then plots the eigenvalues scaled by \\({\\Delta t}\\) overlayed with the forward Euler stability region). The script can set either the inflow/outflow boundary conditions described in Example {{< resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3" >}}, or can set periodic boundary conditions. We will look at the eigenvalues of both cases.
+Since this method is explicit, the matrix \\(A\\) does not need to be constructed directly, rather Equation ([2.138](javascript: void(0))) can be used to find the new values of \\(U\\) at each point \\(i\\). However, if we are interested in calculating the eigenvalues to analyze the eigenvalue stability, then the \\(A\\) matrix is required. The following script does exactly that (i.e. calculates \\(A\\), determines the eigenvalues of \\(A\\), and then plots the eigenvalues scaled by \\({\\Delta t}\\) overlayed with the forward Euler stability region). The script can set either the inflow/outflow boundary conditions described in Example {{% resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3" %}}, or can set periodic boundary conditions. We will look at the eigenvalues of both cases.
 
 % This MATLAB script calculates the eigenvalues of
 % the one-dimensional convection equation discretized by
@@ -229,7 +229,7 @@ hold off;
 axis('equal');
 grid on;
 
-Figures {{< resource_link ed8092cb-f065-5e67-74b7-6b0a79d5a73d "2.21" >}} and {{< resource_link df1ad7e8-1a8d-557c-041c-41ba300c9d9a "2.22" >}} show plots of \\(\\lambda {\\Delta t}\\) for a CFL set to one. Recall that for this one-dimensional problem, the CFL number was defined as,
+Figures {{% resource_link ed8092cb-f065-5e67-74b7-6b0a79d5a73d "2.21" %}} and {{% resource_link df1ad7e8-1a8d-557c-041c-41ba300c9d9a "2.22" %}} show plots of \\(\\lambda {\\Delta t}\\) for a CFL set to one. Recall that for this one-dimensional problem, the CFL number was defined as,
 
 {{< tableopen >}}
 {{< tropen >}}
@@ -244,7 +244,7 @@ Figures {{< resource_link ed8092cb-f065-5e67-74b7-6b0a79d5a73d "2.21" >}} and 
 
 {{< tableclose >}}
 
-In the inflow/outflow boundary condition case (shown in Figure {{< resource_link ed8092cb-f065-5e67-74b7-6b0a79d5a73d "2.21" >}}) the eigenvalues lay slightly inside the negative real half-plane. As they move away from the origin, they approach the imaginary axis at \\(\\pm i\\). The periodic boundary conditions give purely imaginary eigenvalues but these also approach \\(\\pm i\\) as the move away from the origin. Note that the periodic boundary conditions actually give a zero eigenvalue so that the matrix \\(A\\) is actually singular (Why is this?). Regardless what we see is that for a \\(\\mathrm{CFL} = 1\\), some \\(\\lambda {\\Delta t}\\) exist which are outside of the forward Euler stability region. We could try to lower the timestep to bring all of the \\(\\lambda {\\Delta t}\\) into the stability region, however that will prove to be practically impossible since the extreme eigenvalues approach \\(\\pm \\alpha i\\) (i.e. they are purely imaginary). Thus, no finite value of \\({\\Delta t}\\) exists for which these eigenvalues can be brought inside the circular stability region of the forward Euler method (i.e. the FTCS is unstable for convection).
+In the inflow/outflow boundary condition case (shown in Figure {{% resource_link ed8092cb-f065-5e67-74b7-6b0a79d5a73d "2.21" %}}) the eigenvalues lay slightly inside the negative real half-plane. As they move away from the origin, they approach the imaginary axis at \\(\\pm i\\). The periodic boundary conditions give purely imaginary eigenvalues but these also approach \\(\\pm i\\) as the move away from the origin. Note that the periodic boundary conditions actually give a zero eigenvalue so that the matrix \\(A\\) is actually singular (Why is this?). Regardless what we see is that for a \\(\\mathrm{CFL} = 1\\), some \\(\\lambda {\\Delta t}\\) exist which are outside of the forward Euler stability region. We could try to lower the timestep to bring all of the \\(\\lambda {\\Delta t}\\) into the stability region, however that will prove to be practically impossible since the extreme eigenvalues approach \\(\\pm \\alpha i\\) (i.e. they are purely imaginary). Thus, no finite value of \\({\\Delta t}\\) exists for which these eigenvalues can be brought inside the circular stability region of the forward Euler method (i.e. the FTCS is unstable for convection).
 
 {{< resource ed8092cb-f065-5e67-74b7-6b0a79d5a73d >}}
 
@@ -254,7 +254,7 @@ In the inflow/outflow boundary condition case (shown in Figure {{< resource_lin
 
 **Figure 2.22**: \\(\\Lambda {\\Delta t}\\) distribution for one-dimensional convection example with periodic boundary conditions. Note \\({\\Delta t}\\) set such that \\(CFL=1\\).
 
-We may also be interested in what happens to the eigenvalue spectrum of \\(A\\) when we change \\(\\Delta x\\) keeping the CFL constant. Figures {{< resource_link 14051c75-1e50-4e5a-f435-9109553002c2 "2.23" >}} and {{< resource_link e56ec9ad-37f6-5316-b90f-8ba4f9cea544 "2.24" >}} plot the eigenvalue spectrum for both periodic and Dirichlet boundary conditions refining \\(\\Delta x\\) by a factor of 10. For the periodic BC case, again we see purely imaginary eigenvalues approaching \\(\\pm i\\) (though, of course, we have more eigenvalues as \\(A\\) is now a larger system). For the Dirichlet case, the eigenvalues again lie slightly inside the negative real half-plane, though in this case closer to the imaginary axis than for the coarser system. In fact, the eigenvalues of the Dirichlet problem approach those of the periodic problem in the limit as \\(\\Delta x \\to 0\\).
+We may also be interested in what happens to the eigenvalue spectrum of \\(A\\) when we change \\(\\Delta x\\) keeping the CFL constant. Figures {{% resource_link 14051c75-1e50-4e5a-f435-9109553002c2 "2.23" %}} and {{% resource_link e56ec9ad-37f6-5316-b90f-8ba4f9cea544 "2.24" %}} plot the eigenvalue spectrum for both periodic and Dirichlet boundary conditions refining \\(\\Delta x\\) by a factor of 10. For the periodic BC case, again we see purely imaginary eigenvalues approaching \\(\\pm i\\) (though, of course, we have more eigenvalues as \\(A\\) is now a larger system). For the Dirichlet case, the eigenvalues again lie slightly inside the negative real half-plane, though in this case closer to the imaginary axis than for the coarser system. In fact, the eigenvalues of the Dirichlet problem approach those of the periodic problem in the limit as \\(\\Delta x \\to 0\\).
 
 {{< resource 14051c75-1e50-4e5a-f435-9109553002c2 >}}
 

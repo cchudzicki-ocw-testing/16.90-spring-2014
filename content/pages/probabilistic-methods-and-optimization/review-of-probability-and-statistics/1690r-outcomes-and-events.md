@@ -9,18 +9,18 @@ title: 3.2 Review of Probability and Statistics
 uid: a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e
 ---
 
-*   {{< resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "\<Review of Probability and Statistics" >}}
-*   {{< resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "3.2.1Random Variables" >}}
-*   {{< resource_link a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e "3.2.2Outcomes and Events" >}}
-*   {{< resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "3.2.3Distributions" >}}
-*   {{< resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "3.2.4Expectations" >}}
-*   {{< resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "3.2.5The Central Limit Theorem" >}}
-*   {{< resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "\>Distributions" >}}
+*   {{% resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "\<Review of Probability and Statistics" %}}
+*   {{% resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "3.2.1Random Variables" %}}
+*   {{% resource_link a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e "3.2.2Outcomes and Events" %}}
+*   {{% resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "3.2.3Distributions" %}}
+*   {{% resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "3.2.4Expectations" %}}
+*   {{% resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "3.2.5The Central Limit Theorem" %}}
+*   {{% resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "\>Distributions" %}}
 
 3.2.2 Outcomes and Events
 -------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.2" "#anchorMO32" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.2" "#anchorMO32" %}}
 
 In this unit, we give some definitions and introduce some formalism from probability theory. Consider an experiment or activity that will be performed several times. Each time the experiment is performed, its outcome can be recorded. An event is a set of outcomes for which certain conditions have been met. An elementary event consists of only a single outcome.
 

@@ -15,7 +15,7 @@ _In this section, Professor Karen Willcox shares how the programming projects in
 Applying Theoretical Knowledge
 ------------------------------
 
-{{< resource_link f280d7dd-977c-7253-0f43-76c2e35fc1df "Three programming projects" >}} are required in _16.90 Computational Methods in Aerospace Engineering_. The programming projects are an important part of the course because, although students might have the theoretical tools to be able to analyze properties with different computational methods, many don’t truly understand these methods until they apply them to real problems. It’s not until they sit down to write a piece of code and get stuck that they realize that they might not understand various aspects of the curriculum, and how they relate to one another. In this way, the projects serve as assessments in the course.  
+{{% resource_link f280d7dd-977c-7253-0f43-76c2e35fc1df "Three programming projects" %}} are required in _16.90 Computational Methods in Aerospace Engineering_. The programming projects are an important part of the course because, although students might have the theoretical tools to be able to analyze properties with different computational methods, many don’t truly understand these methods until they apply them to real problems. It’s not until they sit down to write a piece of code and get stuck that they realize that they might not understand various aspects of the curriculum, and how they relate to one another. In this way, the projects serve as assessments in the course.  
 
 Breaking a Complex Project into Smaller Components
 --------------------------------------------------

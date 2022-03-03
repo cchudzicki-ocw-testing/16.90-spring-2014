@@ -41,7 +41,7 @@ Tips for OCW Users
 
 ### Learning Strategies
 
-You could begin by completing all the readings in a Unit, then work through all of the Unit's sample problems in sequence, and then finally do all of the {{< resource_link 99048963-e96c-fc63-b687-a36dcc5be4e1 "homework assignments" >}}.
+You could begin by completing all the readings in a Unit, then work through all of the Unit's sample problems in sequence, and then finally do all of the {{% resource_link 99048963-e96c-fc63-b687-a36dcc5be4e1 "homework assignments" %}}.
 
 Alternatively, you may find it more effective to try the relevant Unit sample problems and/or homework assignments as you finish each portion of the Unit reading. You can use the measurable outcome tags to identify these relationships: they appear at the top of all Unit pages, just beneath the title).
 

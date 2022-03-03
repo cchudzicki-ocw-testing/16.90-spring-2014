@@ -9,18 +9,18 @@ title: 3.2 Review of Probability and Statistics
 uid: 48e310af-9f94-1a31-5e65-7482fc62956d
 ---
 
-*   {{< resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "\<Expectations" >}}
-*   {{< resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "3.2.1Random Variables" >}}
-*   {{< resource_link a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e "3.2.2Outcomes and Events" >}}
-*   {{< resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "3.2.3Distributions" >}}
-*   {{< resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "3.2.4Expectations" >}}
-*   {{< resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "3.2.5The Central Limit Theorem" >}}
-*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "\>Monte Carlo Methods" >}}
+*   {{% resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "\<Expectations" %}}
+*   {{% resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "3.2.1Random Variables" %}}
+*   {{% resource_link a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e "3.2.2Outcomes and Events" %}}
+*   {{% resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "3.2.3Distributions" %}}
+*   {{% resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "3.2.4Expectations" %}}
+*   {{% resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "3.2.5The Central Limit Theorem" %}}
+*   {{% resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "\>Monte Carlo Methods" %}}
 
 3.2.5 The Central Limit Theorem
 -------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.7" "#anchorMO37" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.9" "#anchorMO39" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.7" "#anchorMO37" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.9" "#anchorMO39" %}}
 
 In the first four units, we have introduced the concept of a random variable, the basic axioms of probability and probability distribution functions. We have seen that just like variables can be characterized by their value, random variables can be characterized by their probability distribution. We have also seen that we can have random variables that are functions of other random variables, just like deterministic variables can be functions of other deterministic variables.
 

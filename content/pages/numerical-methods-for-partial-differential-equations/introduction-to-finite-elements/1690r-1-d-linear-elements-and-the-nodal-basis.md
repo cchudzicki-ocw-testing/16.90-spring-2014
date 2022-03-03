@@ -9,21 +9,21 @@ title: 2.9 Introduction to Finite Elements
 uid: 03bb574d-085a-6995-0b35-3c2a70257228
 ---
 
-*   {{< resource_link cc8eecdb-7e89-e1db-ce16-2f90e5ff68fb "\<1-D Finite Element Mesh and Notation" >}}
-*   {{< resource_link 876be530-ac05-3384-5428-281b2b3c5b68 "2.9.1Motivation" >}}
-*   {{< resource_link cc8eecdb-7e89-e1db-ce16-2f90e5ff68fb "2.9.21-D Finite Element Mesh and Notation" >}}
-*   {{< resource_link 03bb574d-085a-6995-0b35-3c2a70257228 "2.9.31-D Linear Elements and the Nodal Basis" >}}
-*   {{< resource_link 2f262139-b40f-5261-66c9-51230f32cd54 "2.9.4Weak Form of the Weighted Residual" >}}
-*   {{< resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "2.9.5Calculation of the Finite Element Weighted Residual" >}}
-*   {{< resource_link e47fb6af-9d83-9e3b-073e-b5053c6c2226 "2.9.6Calculation of the Stiffness Matrix" >}}
-*   {{< resource_link 2f262139-b40f-5261-66c9-51230f32cd54 "\>Weak Form of the Weighted Residual" >}}
+*   {{% resource_link cc8eecdb-7e89-e1db-ce16-2f90e5ff68fb "\<1-D Finite Element Mesh and Notation" %}}
+*   {{% resource_link 876be530-ac05-3384-5428-281b2b3c5b68 "2.9.1Motivation" %}}
+*   {{% resource_link cc8eecdb-7e89-e1db-ce16-2f90e5ff68fb "2.9.21-D Finite Element Mesh and Notation" %}}
+*   {{% resource_link 03bb574d-085a-6995-0b35-3c2a70257228 "2.9.31-D Linear Elements and the Nodal Basis" %}}
+*   {{% resource_link 2f262139-b40f-5261-66c9-51230f32cd54 "2.9.4Weak Form of the Weighted Residual" %}}
+*   {{% resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "2.9.5Calculation of the Finite Element Weighted Residual" %}}
+*   {{% resource_link e47fb6af-9d83-9e3b-073e-b5053c6c2226 "2.9.6Calculation of the Stiffness Matrix" %}}
+*   {{% resource_link 2f262139-b40f-5261-66c9-51230f32cd54 "\>Weak Form of the Weighted Residual" %}}
 
 2.9.3 1-D Linear Elements and the Nodal Basis
 ---------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.16" "#anchorMO216" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.16" "#anchorMO216" %}}
 
-The finite element method typically uses polynomial functions inside each element. Furthermore, the approximation is usually required to be continuous from element to element. The simplest element which permits continuous functions would be to assume linear variations of \\(x\\) inside each element. This type of element is called a linear element (not too surprisingly). Using linear finite elements, a sample solution might look like that shown in Figure {{< resource_link 323c3e91-af36-839b-9733-a3e877688b1f "2.36" >}}.
+The finite element method typically uses polynomial functions inside each element. Furthermore, the approximation is usually required to be continuous from element to element. The simplest element which permits continuous functions would be to assume linear variations of \\(x\\) inside each element. This type of element is called a linear element (not too surprisingly). Using linear finite elements, a sample solution might look like that shown in Figure {{% resource_link 323c3e91-af36-839b-9733-a3e877688b1f "2.36" %}}.
 
 {{< resource 323c3e91-af36-839b-9733-a3e877688b1f >}}
 
@@ -123,7 +123,7 @@ Now, evaluating this expansion at node \\(i\\),
 
 {{< tableclose >}}
 
-Finally, since the solutions vary linearly over each element, this means that \\(\\phi \_ j(x)\\) is zero for \\(x \< x\_{j-1}\\) and \\(x > x\_{j+1}\\), increases linearly from zero to one from \\(x\_{j-1}\\) to \\(x\_{j}\\), and decreases linearly back to zero at \\(x\_{j+1}\\). \\(\\phi \_ j(x)\\) is shown in Figure {{< resource_link 80400448-ffd6-9327-116c-3a9c3fc923ac "2.37" >}}. The, specific function is,
+Finally, since the solutions vary linearly over each element, this means that \\(\\phi \_ j(x)\\) is zero for \\(x \< x\_{j-1}\\) and \\(x > x\_{j+1}\\), increases linearly from zero to one from \\(x\_{j-1}\\) to \\(x\_{j}\\), and decreases linearly back to zero at \\(x\_{j+1}\\). \\(\\phi \_ j(x)\\) is shown in Figure {{% resource_link 80400448-ffd6-9327-116c-3a9c3fc923ac "2.37" %}}. The, specific function is,
 
 {{< tableopen >}}
 {{< tropen >}}

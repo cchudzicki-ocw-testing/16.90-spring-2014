@@ -9,16 +9,16 @@ title: 1.4 Convergence
 uid: c1ab4737-a98d-26fb-dcee-7c83dfab47d4
 ---
 
-*   {{< resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "\<Convergence" >}}
-*   {{< resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "1.4.1Types of Errors" >}}
-*   {{< resource_link c1ab4737-a98d-26fb-dcee-7c83dfab47d4 "1.4.2Convergence of Numerical Methods" >}}
-*   {{< resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "1.4.3Rate of Convergence Global Order of Accuracy" >}}
-*   {{< resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "\>Rate of Convergence Global Order of Accuracy" >}}
+*   {{% resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "\<Convergence" %}}
+*   {{% resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "1.4.1Types of Errors" %}}
+*   {{% resource_link c1ab4737-a98d-26fb-dcee-7c83dfab47d4 "1.4.2Convergence of Numerical Methods" %}}
+*   {{% resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "1.4.3Rate of Convergence Global Order of Accuracy" %}}
+*   {{% resource_link bc0d43fe-1169-e2be-34aa-cfba7fd50607 "\>Rate of Convergence Global Order of Accuracy" %}}
 
 1.4.2 Convergence of Numerical Methods
 --------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.7" "#anchorMO17" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.7" "#anchorMO17" %}}
 
 As the timestep is decreased, i.e. \\({\\Delta t}\\rightarrow 0\\), the approximation from a finite difference method should converge to the solution of the ODE. This concept is known as convergence and is stated mathematically as follows:
 

@@ -9,18 +9,18 @@ title: 1.7 Stiffness and Implicit Methods
 uid: 543e8406-3445-482c-0202-05c77ce31e71
 ---
 
-*   {{< resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "\<Spectral Condition Number" >}}
-*   {{< resource_link 935324e3-1ab2-cb57-9059-0ba1f034fcd5 "1.7.1Stiffness" >}}
-*   {{< resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "1.7.2Spectral Condition Number" >}}
-*   {{< resource_link 543e8406-3445-482c-0202-05c77ce31e71 "1.7.3Implicit Methods for Linear Systems of ODEs" >}}
-*   {{< resource_link b363c2d0-1814-cf4c-0cb3-6fe540840d02 "1.7.4Newton-Raphson Implement Implicit Methods on Nonlinear Problems" >}}
-*   {{< resource_link 84564160-240c-f3be-e329-df42818d2eaa "1.7.5Apply Newton-Rhapson" >}}
-*   {{< resource_link b363c2d0-1814-cf4c-0cb3-6fe540840d02 "\>Newton-Raphson Implement Implicit Methods on Nonlinear Problems" >}}
+*   {{% resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "\<Spectral Condition Number" %}}
+*   {{% resource_link 935324e3-1ab2-cb57-9059-0ba1f034fcd5 "1.7.1Stiffness" %}}
+*   {{% resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "1.7.2Spectral Condition Number" %}}
+*   {{% resource_link 543e8406-3445-482c-0202-05c77ce31e71 "1.7.3Implicit Methods for Linear Systems of ODEs" %}}
+*   {{% resource_link b363c2d0-1814-cf4c-0cb3-6fe540840d02 "1.7.4Newton-Raphson Implement Implicit Methods on Nonlinear Problems" %}}
+*   {{% resource_link 84564160-240c-f3be-e329-df42818d2eaa "1.7.5Apply Newton-Rhapson" %}}
+*   {{% resource_link b363c2d0-1814-cf4c-0cb3-6fe540840d02 "\>Newton-Raphson Implement Implicit Methods on Nonlinear Problems" %}}
 
 1.7.3 Implicit Methods for Linear Systems of ODE's
 --------------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.9" "#anchorMO19" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.11" "#anchorMO111" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.12" "#anchorMO112" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.13" "#anchorMO113" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.9" "#anchorMO19" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.11" "#anchorMO111" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.12" "#anchorMO112" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.13" "#anchorMO113" %}}
 
 While implicit methods can allow significantly larger timesteps, they do involve more work than explicit methods. Consider the forward method applied to \\(u\_ t = Au\\) where \\(A\\) is a \\(d \\times d\\) matrix.
 

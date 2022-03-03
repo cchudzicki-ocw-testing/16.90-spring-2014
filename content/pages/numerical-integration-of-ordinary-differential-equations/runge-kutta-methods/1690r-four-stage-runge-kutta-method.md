@@ -9,16 +9,16 @@ title: 1.9 Runge-Kutta Methods
 uid: d5200dfd-d11c-9d13-8626-a6b253c602ff
 ---
 
-*   {{< resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "\<Runge-Kutta Methods" >}}
-*   {{< resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "1.9.1Two-Stage Runge-Kutta Methods" >}}
-*   {{< resource_link d5200dfd-d11c-9d13-8626-a6b253c602ff "1.9.2Four-Stage Runge-Kutta Method" >}}
-*   {{< resource_link 1f5a4263-b1f3-f522-02d6-af00f58ae206 "1.9.3Stability Regions" >}}
-*   {{< resource_link 1f5a4263-b1f3-f522-02d6-af00f58ae206 "\>Stability Regions" >}}
+*   {{% resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "\<Runge-Kutta Methods" %}}
+*   {{% resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "1.9.1Two-Stage Runge-Kutta Methods" %}}
+*   {{% resource_link d5200dfd-d11c-9d13-8626-a6b253c602ff "1.9.2Four-Stage Runge-Kutta Method" %}}
+*   {{% resource_link 1f5a4263-b1f3-f522-02d6-af00f58ae206 "1.9.3Stability Regions" %}}
+*   {{% resource_link 1f5a4263-b1f3-f522-02d6-af00f58ae206 "\>Stability Regions" %}}
 
 1.9.2 Four-stage Runge-Kutta Method
 -----------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.16" "#anchorMO116" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.17" "#anchorMO117" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.16" "#anchorMO116" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.17" "#anchorMO117" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" %}}
 
 The most popular form of a four-stage Runge-Kutta method is:
 

@@ -34,11 +34,11 @@ Instructor Insights
 
 _Below, Professor Karen Willcox describes various aspects of how she taught_ 16.90 Computational Methods in Aerospace Engineering_._
 
-*   {{< resource_link 219f7ee1-9c20-d982-8121-324d27a385fc "Flipping the Classroom" >}}
-*   {{< resource_link ef5333c4-caac-4b23-3599-e89e37e52fea "Mapping Measurable Outcomes" >}}
-*   {{< resource_link 9bd39d24-ce43-7655-9bc5-bd62b44c6e31 "Assessing Students through Oral Exams" >}}
-*   {{< resource_link 9a0387e0-b596-f2b7-c0db-12fb8b08b819 "Reflecting on the Programming Projects" >}}
-*   {{< resource_link 7c33845c-200b-cb1b-3788-0b72a4f87dd5 "Co-Teaching the Course" >}}
+*   {{% resource_link 219f7ee1-9c20-d982-8121-324d27a385fc "Flipping the Classroom" %}}
+*   {{% resource_link ef5333c4-caac-4b23-3599-e89e37e52fea "Mapping Measurable Outcomes" %}}
+*   {{% resource_link 9bd39d24-ce43-7655-9bc5-bd62b44c6e31 "Assessing Students through Oral Exams" %}}
+*   {{% resource_link 9a0387e0-b596-f2b7-c0db-12fb8b08b819 "Reflecting on the Programming Projects" %}}
+*   {{% resource_link 7c33845c-200b-cb1b-3788-0b72a4f87dd5 "Co-Teaching the Course" %}}
 
 Curriculum Information
 ----------------------
@@ -73,7 +73,7 @@ The students' grades were based on the following activities:
 
 ### Instructor Insights on Assessment
 
-Professor Karen Willcox shares her insights about {{< resource_link 9bd39d24-ce43-7655-9bc5-bd62b44c6e31 "assessing students through oral exams" >}}.
+Professor Karen Willcox shares her insights about {{% resource_link 9bd39d24-ce43-7655-9bc5-bd62b44c6e31 "assessing students through oral exams" %}}.
 
 Student Information
 -------------------
@@ -106,6 +106,6 @@ Out of Class
 ------------
 
 *   Online readings that included multiple choice, true/false, and short answer questions
-*   {{< resource_link 99048963-e96c-fc63-b687-a36dcc5be4e1 "Problem sets" >}}
-*   {{< resource_link f280d7dd-977c-7253-0f43-76c2e35fc1df "Three programming projects" >}}
-*   Preparation for {{< resource_link e557ef78-084f-8ac1-fc20-05a2eb55fb95 "oral mid-term and final exams" >}}
+*   {{% resource_link 99048963-e96c-fc63-b687-a36dcc5be4e1 "Problem sets" %}}
+*   {{% resource_link f280d7dd-977c-7253-0f43-76c2e35fc1df "Three programming projects" %}}
+*   Preparation for {{% resource_link e557ef78-084f-8ac1-fc20-05a2eb55fb95 "oral mid-term and final exams" %}}

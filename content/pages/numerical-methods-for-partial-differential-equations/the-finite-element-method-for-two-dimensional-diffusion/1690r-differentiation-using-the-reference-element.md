@@ -9,18 +9,18 @@ title: 2.11 The Finite Element Method for Two-Dimensional Diffusion
 uid: 6075ecc5-d133-cbcb-277c-06977e6970ea
 ---
 
-*   {{< resource_link 16176028-e869-5612-f636-568d503833fc "\<Reference Element and Linear Elements" >}}
-*   {{< resource_link c782bcc9-abb3-f6bc-c638-027dfffdc386 "2.11.1Overview" >}}
-*   {{< resource_link 16176028-e869-5612-f636-568d503833fc "2.11.2Reference Element and Linear Elements" >}}
-*   {{< resource_link 6075ecc5-d133-cbcb-277c-06977e6970ea "2.11.3Differentiation using the Reference Element" >}}
-*   {{< resource_link d29ce1ed-3626-60b8-be9b-f2741bbc6ee9 "2.11.4Construction of the Stiffness Matrix" >}}
-*   {{< resource_link cd2d971f-e847-d266-f0b1-555caab639d4 "2.11.5Integration in the Reference Element" >}}
-*   {{< resource_link d29ce1ed-3626-60b8-be9b-f2741bbc6ee9 "\>Construction of the Stiffness Matrix" >}}
+*   {{% resource_link 16176028-e869-5612-f636-568d503833fc "\<Reference Element and Linear Elements" %}}
+*   {{% resource_link c782bcc9-abb3-f6bc-c638-027dfffdc386 "2.11.1Overview" %}}
+*   {{% resource_link 16176028-e869-5612-f636-568d503833fc "2.11.2Reference Element and Linear Elements" %}}
+*   {{% resource_link 6075ecc5-d133-cbcb-277c-06977e6970ea "2.11.3Differentiation using the Reference Element" %}}
+*   {{% resource_link d29ce1ed-3626-60b8-be9b-f2741bbc6ee9 "2.11.4Construction of the Stiffness Matrix" %}}
+*   {{% resource_link cd2d971f-e847-d266-f0b1-555caab639d4 "2.11.5Integration in the Reference Element" %}}
+*   {{% resource_link d29ce1ed-3626-60b8-be9b-f2741bbc6ee9 "\>Construction of the Stiffness Matrix" %}}
 
 2.11.3 Differentiation using the Reference Element
 --------------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.17" "#anchorMO217" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.17" "#anchorMO217" %}}
 
 To find the derivative of \\(\\tilde{T}\\) with respect to \\(x\\) (or similarly \\(y\\)) within an element, we differentiate the three nodal basis functions within the element:
 

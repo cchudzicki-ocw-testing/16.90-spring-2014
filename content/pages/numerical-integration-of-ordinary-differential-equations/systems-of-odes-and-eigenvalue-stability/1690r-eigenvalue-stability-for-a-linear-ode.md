@@ -9,19 +9,19 @@ title: 1.6 Systems of ODE's and Eigenvalue Stability
 uid: 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe
 ---
 
-*   {{< resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "\<Linear Constant Coefficient Systems" >}}
-*   {{< resource_link 36e637ce-d6ff-e05d-3606-0d537611ad2e "1.6.1Nonlinear Systems" >}}
-*   {{< resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "1.6.2Linear Constant Coefficient Systems" >}}
-*   {{< resource_link 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe "1.6.3Eigenvalue Stability for a Linear ODE" >}}
-*   {{< resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "1.6.4Imaginary Eigenvalues" >}}
-*   {{< resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "\>Imaginary Eigenvalues" >}}
+*   {{% resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "\<Linear Constant Coefficient Systems" %}}
+*   {{% resource_link 36e637ce-d6ff-e05d-3606-0d537611ad2e "1.6.1Nonlinear Systems" %}}
+*   {{% resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "1.6.2Linear Constant Coefficient Systems" %}}
+*   {{% resource_link 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe "1.6.3Eigenvalue Stability for a Linear ODE" %}}
+*   {{% resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "1.6.4Imaginary Eigenvalues" %}}
+*   {{% resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "\>Imaginary Eigenvalues" %}}
 
 1.6.3 Eigenvalue Stability for a Linear ODE
 -------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.2" "#anchorMO12" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.3" "#anchorMO13" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.9" "#anchorMO19" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.18" "#anchorMO118" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.2" "#anchorMO12" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.3" "#anchorMO13" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.9" "#anchorMO19" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.18" "#anchorMO118" %}}
 
-As we have seen, while numerical methods can be convergent, they can still exhibit instabilities as \\(n\\) increases for finite \\({\\Delta t}\\). For example, when applying the midpoint method to either the ice particle problem in Section {{< resource_link 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5 "1.2.4" >}} or the simpler model problem in Example [1.66](javascript: void(0)), instabilities were seen in both cases as \\(n\\) increased. Similarly, for the nonlinear pendulum problem in Example [1.86](javascript: void(0)), the forward Euler method had a growing amplitude again indicating an instability. The key to understanding these results is to analyze the stability for finite \\({\\Delta t}\\). This analysis is different than the stability analysis we performed in Section {{< resource_link 69a13333-afb5-90ee-d339-c7fba31529fd "1.5.2" >}} since that analysis was for the limit of \\({\\Delta t}\\rightarrow 0\\).
+As we have seen, while numerical methods can be convergent, they can still exhibit instabilities as \\(n\\) increases for finite \\({\\Delta t}\\). For example, when applying the midpoint method to either the ice particle problem in Section {{% resource_link 9b1b577d-12e2-e60d-75d3-f8fb6ed609d5 "1.2.4" %}} or the simpler model problem in Example [1.66](javascript: void(0)), instabilities were seen in both cases as \\(n\\) increased. Similarly, for the nonlinear pendulum problem in Example [1.86](javascript: void(0)), the forward Euler method had a growing amplitude again indicating an instability. The key to understanding these results is to analyze the stability for finite \\({\\Delta t}\\). This analysis is different than the stability analysis we performed in Section {{% resource_link 69a13333-afb5-90ee-d339-c7fba31529fd "1.5.2" %}} since that analysis was for the limit of \\({\\Delta t}\\rightarrow 0\\).
 
 Suppose we are interested in solving the linear ODE,
 
@@ -113,7 +113,7 @@ which is the amplification factor for the forward Euler method. Now, we must det
 
 {{< tableclose >}}
 
-Thus, the stability boundary for the forward Euler method lies on a circle of radius one centered at -1 along the real axis and is shown in Figure {{< resource_link ffa99b42-f438-0a33-20c9-f53791a67819 "1.10" >}}.
+Thus, the stability boundary for the forward Euler method lies on a circle of radius one centered at -1 along the real axis and is shown in Figure {{% resource_link ffa99b42-f438-0a33-20c9-f53791a67819 "1.10" %}}.
 
 {{< resource ffa99b42-f438-0a33-20c9-f53791a67819 >}}
 
@@ -124,7 +124,7 @@ For a given problem, i.e. with a given \\(\\lambda\\), the timestep must be chos
 Example
 -------
 
-Let's return to the previous example, \\(u\_ t = -u^2\\) with \\(u(0) = 1\\). To determine the timestep restrictions, we must estimate the eigenvalue for this problem. Linearizing this problem about a known state gives the eigenvalue as \\(\\lambda = {\\partial f}/{\\partial u} = -2u\\). Since the solution will decay from the initial condition (since \\(u\_ t \< 0\\) because \\(-u^2 \< 0\\)), the largest magnitude of the eigenvalue occurs at the initial condition when \\(u(0) = 1\\) and thus, \\(\\lambda = -2\\). Since this eigenvalue is a negative real number, the maximum \\({\\Delta t}\\) will occur at the maximum extent of the stability region along the negative real axis. Since this occurs when \\(\\lambda {\\Delta t}= -2\\), this implies that \\({\\Delta t}\< 1\\). To test the validity of this analysis, the forward Euler method was run for \\({\\Delta t}= 0.9\\) and \\({\\Delta t}= 1.1\\). The results are shown in Figure {{< resource_link 9f9bf44b-75d4-cda7-ee12-7e6196a405a1 "1.11" >}} which are stable for \\({\\Delta t}= 0.9\\) but are unstable for \\({\\Delta t}= 1.1\\).
+Let's return to the previous example, \\(u\_ t = -u^2\\) with \\(u(0) = 1\\). To determine the timestep restrictions, we must estimate the eigenvalue for this problem. Linearizing this problem about a known state gives the eigenvalue as \\(\\lambda = {\\partial f}/{\\partial u} = -2u\\). Since the solution will decay from the initial condition (since \\(u\_ t \< 0\\) because \\(-u^2 \< 0\\)), the largest magnitude of the eigenvalue occurs at the initial condition when \\(u(0) = 1\\) and thus, \\(\\lambda = -2\\). Since this eigenvalue is a negative real number, the maximum \\({\\Delta t}\\) will occur at the maximum extent of the stability region along the negative real axis. Since this occurs when \\(\\lambda {\\Delta t}= -2\\), this implies that \\({\\Delta t}\< 1\\). To test the validity of this analysis, the forward Euler method was run for \\({\\Delta t}= 0.9\\) and \\({\\Delta t}= 1.1\\). The results are shown in Figure {{% resource_link 9f9bf44b-75d4-cda7-ee12-7e6196a405a1 "1.11" %}} which are stable for \\({\\Delta t}= 0.9\\) but are unstable for \\({\\Delta t}= 1.1\\).
 
 {{< resource 9f9bf44b-75d4-cda7-ee12-7e6196a405a1 >}}
 
@@ -217,6 +217,6 @@ The eigenvalues can be found from the roots of the determinant of \\({\\partial 
 
 {{< tableclose >}}
 
-Thus, we see that the eigenvalues will always be imaginary for this problem. As a result, since the forward Euler stability region does not contain any part of the imaginary axis (except the origin), no finite timestep exists which will be stable. This explains why the amplitude increases for the pendulum simulations in Figure {{< resource_link dc33ef95-4ba0-0d2f-d80b-8e3cff99322b "1.8" >}}.
+Thus, we see that the eigenvalues will always be imaginary for this problem. As a result, since the forward Euler stability region does not contain any part of the imaginary axis (except the origin), no finite timestep exists which will be stable. This explains why the amplitude increases for the pendulum simulations in Figure {{% resource_link dc33ef95-4ba0-0d2f-d80b-8e3cff99322b "1.8" %}}.
 
 BackLinear Constant Coefficient Systems ContinueImaginary Eigenvalues

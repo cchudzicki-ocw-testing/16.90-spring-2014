@@ -9,19 +9,19 @@ title: 2.9 Introduction to Finite Elements
 uid: e47fb6af-9d83-9e3b-073e-b5053c6c2226
 ---
 
-*   {{< resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "\<Calculation of the Finite Element Weighted Residual" >}}
-*   {{< resource_link 876be530-ac05-3384-5428-281b2b3c5b68 "2.9.1Motivation" >}}
-*   {{< resource_link cc8eecdb-7e89-e1db-ce16-2f90e5ff68fb "2.9.21-D Finite Element Mesh and Notation" >}}
-*   {{< resource_link 03bb574d-085a-6995-0b35-3c2a70257228 "2.9.31-D Linear Elements and the Nodal Basis" >}}
-*   {{< resource_link 2f262139-b40f-5261-66c9-51230f32cd54 "2.9.4Weak Form of the Weighted Residual" >}}
-*   {{< resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "2.9.5Calculation of the Finite Element Weighted Residual" >}}
-*   {{< resource_link e47fb6af-9d83-9e3b-073e-b5053c6c2226 "2.9.6Calculation of the Stiffness Matrix" >}}
-*   {{< resource_link 62673265-55df-f200-dae2-644697a179db "\>More on Finite Element Methods" >}}
+*   {{% resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "\<Calculation of the Finite Element Weighted Residual" %}}
+*   {{% resource_link 876be530-ac05-3384-5428-281b2b3c5b68 "2.9.1Motivation" %}}
+*   {{% resource_link cc8eecdb-7e89-e1db-ce16-2f90e5ff68fb "2.9.21-D Finite Element Mesh and Notation" %}}
+*   {{% resource_link 03bb574d-085a-6995-0b35-3c2a70257228 "2.9.31-D Linear Elements and the Nodal Basis" %}}
+*   {{% resource_link 2f262139-b40f-5261-66c9-51230f32cd54 "2.9.4Weak Form of the Weighted Residual" %}}
+*   {{% resource_link c369789e-d0c6-3741-858a-5dcba10708e4 "2.9.5Calculation of the Finite Element Weighted Residual" %}}
+*   {{% resource_link e47fb6af-9d83-9e3b-073e-b5053c6c2226 "2.9.6Calculation of the Stiffness Matrix" %}}
+*   {{% resource_link 62673265-55df-f200-dae2-644697a179db "\>More on Finite Element Methods" %}}
 
 2.9.6 Calculation of the Stiffness Matrix
 -----------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.12" "#anchorMO212" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.14" "#anchorMO214" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.15" "#anchorMO215" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.16" "#anchorMO216" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.17" "#anchorMO217" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.20" "#anchorMO220" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.12" "#anchorMO212" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.14" "#anchorMO214" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.15" "#anchorMO215" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.16" "#anchorMO216" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.17" "#anchorMO217" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.20" "#anchorMO220" %}}
 
 For the steady diffusion problem we have been considering in this chapter, the finite element method results in a linear system of equations of the form
 
@@ -40,7 +40,7 @@ For the steady diffusion problem we have been considering in this chapter, the f
 
 where \\(K\\) is commonly referred to as the **stiffness matrix**. The unknown coefficients \\(a\_ i\\) of the solution approximation are in the vector \\(a\\). The right-hand side vector \\(F\\) represents the term \\(\\int \_{-L/2}^{L/2} \\phi \_ j f dx\\) as well as boundary conditions. The calculation of \\(K\\) and \\(F\\) for the finite element method is commonly performed by looping over each element and sending the contributions from each element to the proper entry in \\(K\\) and \\(F\\).
 
-The MATLAB{{< sup "®" >}} implementation of the finite element method for the problem described in Section {{< resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1" >}} is shown below. Note, at the bottom of the script the exact solution and the error in the finite element solution are calculated and plotted. Interestingly, the FEM results for linear elements are exact at the nodes. This in general is not true, and is only a result of this specific problem. However, in between the nodes (i.e., within the elements), there is error since a linear function is being used to represent a higher-order (curved) solution. The error, \\(\\tilde{T}(x)-T(x)\\), is shown in Figure {{< resource_link edac6683-b5ae-210c-aefa-d2d46260f790 "2.40" >}} for both \\(N=5\\) and \\(N=10\\) solutions. Note: to construct this plot, each element was subdivided into 20 points and the FEM and exact solution were calculated at these points and compared.
+The MATLAB{{< sup "®" >}} implementation of the finite element method for the problem described in Section {{% resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1" %}} is shown below. Note, at the bottom of the script the exact solution and the error in the finite element solution are calculated and plotted. Interestingly, the FEM results for linear elements are exact at the nodes. This in general is not true, and is only a result of this specific problem. However, in between the nodes (i.e., within the elements), there is error since a linear function is being used to represent a higher-order (curved) solution. The error, \\(\\tilde{T}(x)-T(x)\\), is shown in Figure {{% resource_link edac6683-b5ae-210c-aefa-d2d46260f790 "2.40" %}} for both \\(N=5\\) and \\(N=10\\) solutions. Note: to construct this plot, each element was subdivided into 20 points and the FEM and exact solution were calculated at these points and compared.
 
 % FEM solver for d2T/dx2 + f = 0 where f = 50 exp(x)
 %

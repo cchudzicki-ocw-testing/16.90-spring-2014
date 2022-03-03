@@ -9,18 +9,18 @@ title: 1.7 Stiffness and Implicit Methods
 uid: b363c2d0-1814-cf4c-0cb3-6fe540840d02
 ---
 
-*   {{< resource_link 543e8406-3445-482c-0202-05c77ce31e71 "\<Implicit Methods for Linear Systems of ODEs" >}}
-*   {{< resource_link 935324e3-1ab2-cb57-9059-0ba1f034fcd5 "1.7.1Stiffness" >}}
-*   {{< resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "1.7.2Spectral Condition Number" >}}
-*   {{< resource_link 543e8406-3445-482c-0202-05c77ce31e71 "1.7.3Implicit Methods for Linear Systems of ODEs" >}}
-*   {{< resource_link b363c2d0-1814-cf4c-0cb3-6fe540840d02 "1.7.4Newton-Raphson Implement Implicit Methods on Nonlinear Problems" >}}
-*   {{< resource_link 84564160-240c-f3be-e329-df42818d2eaa "1.7.5Apply Newton-Rhapson" >}}
-*   {{< resource_link 84564160-240c-f3be-e329-df42818d2eaa "\>Apply Newton-Rhapson" >}}
+*   {{% resource_link 543e8406-3445-482c-0202-05c77ce31e71 "\<Implicit Methods for Linear Systems of ODEs" %}}
+*   {{% resource_link 935324e3-1ab2-cb57-9059-0ba1f034fcd5 "1.7.1Stiffness" %}}
+*   {{% resource_link 900cc931-acfb-c435-72d7-f303ce81ef83 "1.7.2Spectral Condition Number" %}}
+*   {{% resource_link 543e8406-3445-482c-0202-05c77ce31e71 "1.7.3Implicit Methods for Linear Systems of ODEs" %}}
+*   {{% resource_link b363c2d0-1814-cf4c-0cb3-6fe540840d02 "1.7.4Newton-Raphson Implement Implicit Methods on Nonlinear Problems" %}}
+*   {{% resource_link 84564160-240c-f3be-e329-df42818d2eaa "1.7.5Apply Newton-Rhapson" %}}
+*   {{% resource_link 84564160-240c-f3be-e329-df42818d2eaa "\>Apply Newton-Rhapson" %}}
 
 1.7.4 Newton-Raphson: Implement Implicit Methods on Nonlinear Problems
 ----------------------------------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.3" "#anchorMO13" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.4" "#anchorMO14" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.12" "#anchorMO112" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.13" "#anchorMO113" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.14" "#anchorMO114" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.3" "#anchorMO13" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.4" "#anchorMO14" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.12" "#anchorMO112" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.13" "#anchorMO113" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.14" "#anchorMO114" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" %}}
 
 When the ODE's are nonlinear, implicit methods require the solution of a nonlinear system of algebraic equations at each iteration. To see this, consider the use of the trapezoidal method for a nonlinear problem,
 

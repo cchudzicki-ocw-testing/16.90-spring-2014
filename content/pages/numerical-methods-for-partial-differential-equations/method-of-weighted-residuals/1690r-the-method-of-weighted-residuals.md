@@ -9,17 +9,17 @@ title: 2.8 Method of Weighted Residuals
 uid: 2bb791a5-f105-8421-b20e-147e46034287
 ---
 
-*   {{< resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "\<The Collocation Method" >}}
-*   {{< resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1Functional Approximation of the Solution" >}}
-*   {{< resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "2.8.2The Collocation Method" >}}
-*   {{< resource_link 2bb791a5-f105-8421-b20e-147e46034287 "2.8.3The Method of Weighted Residuals" >}}
-*   {{< resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "2.8.4Galerkin Method with New Basis" >}}
-*   {{< resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "\>Galerkin Method with New Basis" >}}
+*   {{% resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "\<The Collocation Method" %}}
+*   {{% resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1Functional Approximation of the Solution" %}}
+*   {{% resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "2.8.2The Collocation Method" %}}
+*   {{% resource_link 2bb791a5-f105-8421-b20e-147e46034287 "2.8.3The Method of Weighted Residuals" %}}
+*   {{% resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "2.8.4Galerkin Method with New Basis" %}}
+*   {{% resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "\>Galerkin Method with New Basis" %}}
 
 2.8.3 The Method of Weighted Residuals
 --------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.12" "#anchorMO212" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.13" "#anchorMO213" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.14" "#anchorMO214" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.12" "#anchorMO212" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.13" "#anchorMO213" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.14" "#anchorMO214" %}}
 
 While the collocation method enforces the residual to be zero at \\(N\\) points, the method of weighted residuals requires \\(N\\) weighted integrals of the residual to be zero. A weighted residual is simply the integral over the domain of the residual multiplied by a weight function, \\(w(x)\\). For example, in the one-dimensional diffusion problem we are considering, a weighted residual is,
 

@@ -9,18 +9,18 @@ title: 1.3 Order of Accuracy
 uid: ff3b4491-f1d1-d23e-2d3a-939de701c5c2
 ---
 
-*   {{< resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "\<Definition of Multi-Step Methods" >}}
-*   {{< resource_link a3fbfbbd-e140-393b-aed5-af945a9316f9 "1.3.1Errors" >}}
-*   {{< resource_link 6121a3ca-d8f1-c652-7821-6a952ea8ff2c "1.3.2Local Truncation Error" >}}
-*   {{< resource_link 09523d4b-aafc-8f4c-e9b7-d3d67ad30e7b "1.3.3Local Order of Accuracy" >}}
-*   {{< resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "1.3.4Definition of Multi-Step Methods" >}}
-*   {{< resource_link ff3b4491-f1d1-d23e-2d3a-939de701c5c2 "1.3.5Example of Most Accurate Multi-Step Method" >}}
-*   {{< resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "\>Convergence" >}}
+*   {{% resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "\<Definition of Multi-Step Methods" %}}
+*   {{% resource_link a3fbfbbd-e140-393b-aed5-af945a9316f9 "1.3.1Errors" %}}
+*   {{% resource_link 6121a3ca-d8f1-c652-7821-6a952ea8ff2c "1.3.2Local Truncation Error" %}}
+*   {{% resource_link 09523d4b-aafc-8f4c-e9b7-d3d67ad30e7b "1.3.3Local Order of Accuracy" %}}
+*   {{% resource_link 58553753-c9cc-c012-f030-d87844ae8db5 "1.3.4Definition of Multi-Step Methods" %}}
+*   {{% resource_link ff3b4491-f1d1-d23e-2d3a-939de701c5c2 "1.3.5Example of Most Accurate Multi-Step Method" %}}
+*   {{% resource_link 99ee39b7-79f4-9afb-0849-103c798f1c50 "\>Convergence" %}}
 
 1.3.5 Example of Most Accurate Multi-Step Method
 ------------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.5" "#anchorMO15" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.8" "#anchorMO18" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.15" "#anchorMO115" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.5" "#anchorMO15" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.8" "#anchorMO18" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.15" "#anchorMO115" %}}
 
 In this example, we will derive the most accurate multi-step method of the following form:
 

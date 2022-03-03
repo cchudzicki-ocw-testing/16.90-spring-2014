@@ -9,17 +9,17 @@ title: 2.3 Introduction to Finite Difference Methods
 uid: 02467893-75dd-44cc-fcac-58f1a4ee9702
 ---
 
-*   {{< resource_link d923673e-05c6-3f48-9244-d3fc50c46901 "\<Linear Elasticity" >}}
-*   {{< resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "2.3.1Finite Difference Approximations" >}}
-*   {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2Finite Difference Methods" >}}
-*   {{< resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3Finite Difference Method Applied to 1-D Convection" >}}
-*   {{< resource_link 31ee5fcb-1e6b-78ca-5cb4-d3cb7c073c22 "2.3.4Forward Time-Backward Space FTBS" >}}
-*   {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "\>Finite Difference Methods" >}}
+*   {{% resource_link d923673e-05c6-3f48-9244-d3fc50c46901 "\<Linear Elasticity" %}}
+*   {{% resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "2.3.1Finite Difference Approximations" %}}
+*   {{% resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2Finite Difference Methods" %}}
+*   {{% resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3Finite Difference Method Applied to 1-D Convection" %}}
+*   {{% resource_link 31ee5fcb-1e6b-78ca-5cb4-d3cb7c073c22 "2.3.4Forward Time-Backward Space FTBS" %}}
+*   {{% resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "\>Finite Difference Methods" %}}
 
 2.3.1 Finite Difference Approximations
 --------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.3" "#anchorMO23" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.6" "#anchorMO26" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.3" "#anchorMO23" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.6" "#anchorMO26" %}}
 
 Recall how the multi-step methods we developed for ODEs are based on a truncated Taylor series approximation for \\(\\frac{\\partial U}{\\partial t}\\). Specifically, we can consider each multi-step method as computing \\(U\\) at discrete instances in time \\((t^0, t^1, \\ldots , t^ n, \\ldots )\\) where the derivative \\(\\left. \\frac{\\partial U}{\\partial t}\\right|\_ n = U\_ t^ n\\) is approximated using a combination of \\(\\left(U^{n+1}, U^ n, U^{n-1}, \\ldots \\right)\\).
 
@@ -176,7 +176,7 @@ The finite difference approximation for the second order derivative is obtained 
 Finite Difference Approximations in 2D
 --------------------------------------
 
-We can easily extend the concept of finite difference approximations to multiple spatial dimensions. In this case we represent the solution on a structured spatial mesh as shown in Figure {{< resource_link 36452925-7fa9-e455-7dca-ae164384e996 "2.9" >}}.
+We can easily extend the concept of finite difference approximations to multiple spatial dimensions. In this case we represent the solution on a structured spatial mesh as shown in Figure {{% resource_link 36452925-7fa9-e455-7dca-ae164384e996 "2.9" %}}.
 
 {{< resource 36452925-7fa9-e455-7dca-ae164384e996 >}}
 

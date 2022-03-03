@@ -9,18 +9,18 @@ title: 3.2 Review of Probability and Statistics
 uid: f11bfbbc-299e-7603-ff39-0e8071fc595e
 ---
 
-*   {{< resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "\<Distributions" >}}
-*   {{< resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "3.2.1Random Variables" >}}
-*   {{< resource_link a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e "3.2.2Outcomes and Events" >}}
-*   {{< resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "3.2.3Distributions" >}}
-*   {{< resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "3.2.4Expectations" >}}
-*   {{< resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "3.2.5The Central Limit Theorem" >}}
-*   {{< resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "\>The Central Limit Theorem" >}}
+*   {{% resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "\<Distributions" %}}
+*   {{% resource_link 972a23bc-2208-f9b1-2895-30de24175e7d "3.2.1Random Variables" %}}
+*   {{% resource_link a3d2bfd5-90c2-ddaf-a1c4-73639ba4be5e "3.2.2Outcomes and Events" %}}
+*   {{% resource_link 0c7b4a5a-66d4-c9d6-0849-150ad651b9c6 "3.2.3Distributions" %}}
+*   {{% resource_link f11bfbbc-299e-7603-ff39-0e8071fc595e "3.2.4Expectations" %}}
+*   {{% resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "3.2.5The Central Limit Theorem" %}}
+*   {{% resource_link 48e310af-9f94-1a31-5e65-7482fc62956d "\>The Central Limit Theorem" %}}
 
 3.2.4 Expectations
 ------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.5" "#anchorMO35" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.6" "#anchorMO36" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.10" "#anchorMO310" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.5" "#anchorMO35" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.6" "#anchorMO36" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.10" "#anchorMO310" %}}
 
 Think back to the fact that the thickness of a turbine blade in an engine is a random variable. Even though we recognize the randomness of the blade thickness, this does not imply that the nominal value of the blade thickness that we would have used in a deterministic analysis is without any meaning. We understand that the nominal value of the blade thickness is the thickness we expect the manufacturer to produce. This nominal value provides us with a centre to base our further calculations relating to the random variable.
 

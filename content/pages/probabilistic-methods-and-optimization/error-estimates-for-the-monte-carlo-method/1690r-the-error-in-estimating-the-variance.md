@@ -9,17 +9,17 @@ title: 3.4 Error Estimates for the Monte Carlo Method
 uid: 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f
 ---
 
-*   {{< resource_link ed041125-462b-3411-0831-40b32f255066 "\<The Error in Estimating Probabilities" >}}
-*   {{< resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "3.4.1The Error in Estimating the Mean" >}}
-*   {{< resource_link ed041125-462b-3411-0831-40b32f255066 "3.4.2The Error in Estimating Probabilities" >}}
-*   {{< resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "3.4.3The Error in Estimating the Variance" >}}
-*   {{< resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "3.4.4Bootstrapping" >}}
-*   {{< resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "\>Bootstrapping" >}}
+*   {{% resource_link ed041125-462b-3411-0831-40b32f255066 "\<The Error in Estimating Probabilities" %}}
+*   {{% resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "3.4.1The Error in Estimating the Mean" %}}
+*   {{% resource_link ed041125-462b-3411-0831-40b32f255066 "3.4.2The Error in Estimating Probabilities" %}}
+*   {{% resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "3.4.3The Error in Estimating the Variance" %}}
+*   {{% resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "3.4.4Bootstrapping" %}}
+*   {{% resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "\>Bootstrapping" %}}
 
 3.4.3 The Error in Estimating the Variance
 ------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.8" "#anchorMO38" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.11" "#anchorMO311" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.12" "#anchorMO312" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.8" "#anchorMO38" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.11" "#anchorMO311" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.12" "#anchorMO312" %}}
 
 The Error in Estimating the Variance
 ------------------------------------

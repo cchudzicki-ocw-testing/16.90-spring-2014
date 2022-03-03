@@ -9,23 +9,23 @@ title: 3.3 Monte Carlo Methods
 uid: e4ed709d-1333-d460-e932-cde246cff19f
 ---
 
-*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "\<Monte Carlo Methods" >}}
-*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "3.3.1Introduction" >}}
-*   {{< resource_link e4ed709d-1333-d460-e932-cde246cff19f "3.3.2Monte Carlo Analysis" >}}
-*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "3.3.3Monte Carlo Example" >}}
-*   {{< resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "3.3.4Inversion Method for Sampling" >}}
-*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "\>Monte Carlo Example" >}}
+*   {{% resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "\<Monte Carlo Methods" %}}
+*   {{% resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "3.3.1Introduction" %}}
+*   {{% resource_link e4ed709d-1333-d460-e932-cde246cff19f "3.3.2Monte Carlo Analysis" %}}
+*   {{% resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "3.3.3Monte Carlo Example" %}}
+*   {{% resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "3.3.4Inversion Method for Sampling" %}}
+*   {{% resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "\>Monte Carlo Example" %}}
 
 3.3.2 Monte Carlo Analysis
 --------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.3" "#anchorMO33" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.5" "#anchorMO35" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.3" "#anchorMO33" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.5" "#anchorMO35" %}}
 
 In this lecture, we begin our exploration of probabilistic methods, i.e., numerical methods that are used to quantify the impact of uncertainty. In particular, we will focus on the Monte Carlo method, since it is the most common probabilistic analysis method and is the foundation for many others.
 
 Why are probabilistic methods important for engineering analysis and design? More and more there is a realization of the importance of analyzing and managing uncertainty in engineering systems. There are many sources of uncertainty, including uncertain technology performance (especially for advanced technologies whose performance may not be proven in the field), variability due to manufacturing processes, uncertain operating conditions (e.g., weather conditions, wind gusts), and uncertainty due to limitations in the models we use. To be able to design robust, reliable, high-performance systems, we need to be able to analyze how all these different sources of uncertainty affect our system.
 
-To make our discussion concrete, we will consider a simplified model for the heat transfer through a cooled turbine blade as shown in Figure {{< resource_link 77e998ea-9c47-ce82-94c8-a0ce4566c023 "3.2" >}}.
+To make our discussion concrete, we will consider a simplified model for the heat transfer through a cooled turbine blade as shown in Figure {{% resource_link 77e998ea-9c47-ce82-94c8-a0ce4566c023 "3.2" %}}.
 
 {{< resource 77e998ea-9c47-ce82-94c8-a0ce4566c023 >}}
 

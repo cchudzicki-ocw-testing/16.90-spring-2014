@@ -9,20 +9,20 @@ title: 2.5 Introduction to Finite Volume Methods
 uid: 3d8df8b8-2291-7094-b5a6-9893808a75cc
 ---
 
-*   {{< resource_link 7d8e6a54-9392-cde6-ff4d-914e606da194 "\<Boundary Conditions for Finite Differences" >}}
-*   {{< resource_link 3d8df8b8-2291-7094-b5a6-9893808a75cc "2.5.1Finite Volume Method in 1-D" >}}
-*   {{< resource_link 767b5c96-4bd2-394b-92da-ca9fa25f2e1e "2.5.2Finite Volume Method Applied to 1-D Convection" >}}
-*   {{< resource_link d4283096-1401-99d2-0c85-a833f3518826 "2.5.3Finite Volume Method in 2-D" >}}
-*   {{< resource_link a9d8dcc7-e873-f01e-6dc3-6f07884b2f23 "2.5.4Finite Volume Method for 2-D Convection on a Rectangular Mesh" >}}
-*   {{< resource_link eaeacad2-dafd-9383-3c0e-0227dade769c "2.5.5Finite Volume Method for Nonlinear Systems" >}}
-*   {{< resource_link 767b5c96-4bd2-394b-92da-ca9fa25f2e1e "\>Finite Volume Method Applied to 1-D Convection" >}}
+*   {{% resource_link 7d8e6a54-9392-cde6-ff4d-914e606da194 "\<Boundary Conditions for Finite Differences" %}}
+*   {{% resource_link 3d8df8b8-2291-7094-b5a6-9893808a75cc "2.5.1Finite Volume Method in 1-D" %}}
+*   {{% resource_link 767b5c96-4bd2-394b-92da-ca9fa25f2e1e "2.5.2Finite Volume Method Applied to 1-D Convection" %}}
+*   {{% resource_link d4283096-1401-99d2-0c85-a833f3518826 "2.5.3Finite Volume Method in 2-D" %}}
+*   {{% resource_link a9d8dcc7-e873-f01e-6dc3-6f07884b2f23 "2.5.4Finite Volume Method for 2-D Convection on a Rectangular Mesh" %}}
+*   {{% resource_link eaeacad2-dafd-9383-3c0e-0227dade769c "2.5.5Finite Volume Method for Nonlinear Systems" %}}
+*   {{% resource_link 767b5c96-4bd2-394b-92da-ca9fa25f2e1e "\>Finite Volume Method Applied to 1-D Convection" %}}
 
 2.5.1 Finite Volume Method in 1-D
 ---------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.1" "#anchorMO21" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.3" "#anchorMO23" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.1" "#anchorMO21" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.3" "#anchorMO23" %}}
 
-The basis of the finite volume method is the integral convervation law. The essential idea is to divide the domain into many control volumes and approximate the integral conservation law on each of the control volumes. For example, as shown in Figure {{< resource_link 29ce5f24-2c2f-2f7d-b268-c01533ff6c8d "2.13" >}}, cell \\(i\\) lies between the points at \\(x\_{i-\\frac{1}{2}}\\) and \\(x\_{i+\\frac{1}{2}}\\). Note that the points do not have to be equally-spaced.
+The basis of the finite volume method is the integral convervation law. The essential idea is to divide the domain into many control volumes and approximate the integral conservation law on each of the control volumes. For example, as shown in Figure {{% resource_link 29ce5f24-2c2f-2f7d-b268-c01533ff6c8d "2.13" %}}, cell \\(i\\) lies between the points at \\(x\_{i-\\frac{1}{2}}\\) and \\(x\_{i+\\frac{1}{2}}\\). Note that the points do not have to be equally-spaced.
 
 {{< resource 29ce5f24-2c2f-2f7d-b268-c01533ff6c8d >}}
 
@@ -103,7 +103,7 @@ At this point, no approximations have been made thus Equation [2.102](javascrip
 
 {{< tableclose >}}
 
-Thus, the finite volume approximation will be piecewise constant as shown in Figure {{< resource_link da5c14dd-5327-cb2c-294c-1017da9038bc "2.14" >}}.
+Thus, the finite volume approximation will be piecewise constant as shown in Figure {{% resource_link da5c14dd-5327-cb2c-294c-1017da9038bc "2.14" %}}.
 
 {{< resource da5c14dd-5327-cb2c-294c-1017da9038bc >}}
 

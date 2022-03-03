@@ -9,12 +9,12 @@ title: 3.4 Error Estimates for the Monte Carlo Method
 uid: 22e0637c-8322-5bd8-a9d4-e80723fbc928
 ---
 
-*   {{< resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "\<The Error in Estimating the Variance" >}}
-*   {{< resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "3.4.1The Error in Estimating the Mean" >}}
-*   {{< resource_link ed041125-462b-3411-0831-40b32f255066 "3.4.2The Error in Estimating Probabilities" >}}
-*   {{< resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "3.4.3The Error in Estimating the Variance" >}}
-*   {{< resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "3.4.4Bootstrapping" >}}
-*   {{< resource_link e719ff51-42ac-62fb-c38b-4410308e2feb "\>Variance Reduction Techniques for the Monte Carlo Method" >}}
+*   {{% resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "\<The Error in Estimating the Variance" %}}
+*   {{% resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "3.4.1The Error in Estimating the Mean" %}}
+*   {{% resource_link ed041125-462b-3411-0831-40b32f255066 "3.4.2The Error in Estimating Probabilities" %}}
+*   {{% resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "3.4.3The Error in Estimating the Variance" %}}
+*   {{% resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "3.4.4Bootstrapping" %}}
+*   {{% resource_link e719ff51-42ac-62fb-c38b-4410308e2feb "\>Variance Reduction Techniques for the Monte Carlo Method" %}}
 
 3.4.4 Bootstrapping
 -------------------

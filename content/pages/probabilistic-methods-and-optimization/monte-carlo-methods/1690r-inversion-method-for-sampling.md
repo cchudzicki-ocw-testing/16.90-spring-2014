@@ -9,17 +9,17 @@ title: 3.3 Monte Carlo Methods
 uid: 91c4e401-232c-3823-cf38-1f612b323bb6
 ---
 
-*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "\<Monte Carlo Example" >}}
-*   {{< resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "3.3.1Introduction" >}}
-*   {{< resource_link e4ed709d-1333-d460-e932-cde246cff19f "3.3.2Monte Carlo Analysis" >}}
-*   {{< resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "3.3.3Monte Carlo Example" >}}
-*   {{< resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "3.3.4Inversion Method for Sampling" >}}
-*   {{< resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "\>Error Estimates for the Monte Carlo Method" >}}
+*   {{% resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "\<Monte Carlo Example" %}}
+*   {{% resource_link 2733fa33-374f-cb88-814c-413cb75b3483 "3.3.1Introduction" %}}
+*   {{% resource_link e4ed709d-1333-d460-e932-cde246cff19f "3.3.2Monte Carlo Analysis" %}}
+*   {{% resource_link 2ff49897-a168-59d4-5d17-feb89ff6fae6 "3.3.3Monte Carlo Example" %}}
+*   {{% resource_link 91c4e401-232c-3823-cf38-1f612b323bb6 "3.3.4Inversion Method for Sampling" %}}
+*   {{% resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "\>Error Estimates for the Monte Carlo Method" %}}
 
 3.3.4 Inversion Method for Sampling
 -----------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.4" "#anchorMO34" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.4" "#anchorMO34" %}}
 
 Input variability can be distributed in many ways beyond the simple uniform distribution considered above. In this section, we discuss a common approach used to implement the Monte Carlo method for non-uniform distributions. However, we note that for many of the most common distribution types, random number generators are widely available. For example, in MATLAB, the function randn returns random numbers that are normally distributed with a mean of zero and a standard deviation of one. In MATLAB's Statistics Toolbox, many other distribution types are available (see the documentation for the random function for details).
 
@@ -56,7 +56,7 @@ and that the CDF is related to probability by,
 
 {{< tableclose >}}
 
-That is, the probability of the random variable \\(X \\leq x\\) is the CDF evaluated at \\(x\\). As shown in Figure {{< resource_link 4bdf2791-cc81-bf80-4a0f-f3bf8725c090 "3.6" >}}, \\(F(x)\\) ranges from 0 to 1.
+That is, the probability of the random variable \\(X \\leq x\\) is the CDF evaluated at \\(x\\). As shown in Figure {{% resource_link 4bdf2791-cc81-bf80-4a0f-f3bf8725c090 "3.6" %}}, \\(F(x)\\) ranges from 0 to 1.
 
 {{< resource 4bdf2791-cc81-bf80-4a0f-f3bf8725c090 >}}
 

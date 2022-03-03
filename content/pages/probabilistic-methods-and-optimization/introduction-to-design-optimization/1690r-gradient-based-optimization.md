@@ -9,18 +9,18 @@ title: 3.6 Introduction to Design Optimization
 uid: 1d39506a-8ae7-400e-107d-fe048008e5c2
 ---
 
-*   {{< resource_link 6f317b0d-95c1-d32c-f178-c9fdbae632d2 "\<Introduction to Design Optimization" >}}
-*   {{< resource_link 6f317b0d-95c1-d32c-f178-c9fdbae632d2 "3.6.1Design Optimization" >}}
-*   {{< resource_link 1d39506a-8ae7-400e-107d-fe048008e5c2 "3.6.2Gradient Based Optimization" >}}
-*   {{< resource_link da1cf617-8af1-53b1-4d4a-177f24979948 "3.6.3Unconstrained Gradient-Based Optimization Methods" >}}
-*   {{< resource_link c0e755e7-48fd-33db-4782-88b736e0381c "3.6.4Finite Difference Methods" >}}
-*   {{< resource_link 3cde12b3-c306-b87c-973f-5af561f4875f "3.6.5The 1d Search" >}}
-*   {{< resource_link da1cf617-8af1-53b1-4d4a-177f24979948 "\>Unconstrained Gradient-Based Optimization Methods" >}}
+*   {{% resource_link 6f317b0d-95c1-d32c-f178-c9fdbae632d2 "\<Introduction to Design Optimization" %}}
+*   {{% resource_link 6f317b0d-95c1-d32c-f178-c9fdbae632d2 "3.6.1Design Optimization" %}}
+*   {{% resource_link 1d39506a-8ae7-400e-107d-fe048008e5c2 "3.6.2Gradient Based Optimization" %}}
+*   {{% resource_link da1cf617-8af1-53b1-4d4a-177f24979948 "3.6.3Unconstrained Gradient-Based Optimization Methods" %}}
+*   {{% resource_link c0e755e7-48fd-33db-4782-88b736e0381c "3.6.4Finite Difference Methods" %}}
+*   {{% resource_link 3cde12b3-c306-b87c-973f-5af561f4875f "3.6.5The 1d Search" %}}
+*   {{% resource_link da1cf617-8af1-53b1-4d4a-177f24979948 "\>Unconstrained Gradient-Based Optimization Methods" %}}
 
 3.6.2 Gradient Based Optimization
 ---------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.17" "#anchorMO317" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.17" "#anchorMO317" %}}
 
 Most optimization algorithms are iterative. We begin with an initial guess for our design variables, denoted \\(x^0\\). We then iteratively update this guess until the optimal design is achieved.
 

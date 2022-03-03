@@ -9,15 +9,15 @@ title: 2.6 Upwinding and the CFL Condition
 uid: ce70b6b2-dea9-62c9-1d8e-4789958e4499
 ---
 
-*   {{< resource_link eaeacad2-dafd-9383-3c0e-0227dade769c "\<Finite Volume Method for Nonlinear Systems" >}}
-*   {{< resource_link ce70b6b2-dea9-62c9-1d8e-4789958e4499 "2.6.1Upwinding" >}}
-*   {{< resource_link cf738358-ae33-664a-5d71-baadd24f92cb "2.6.2The CFL Condition" >}}
-*   {{< resource_link cf738358-ae33-664a-5d71-baadd24f92cb "\>The CFL Condition" >}}
+*   {{% resource_link eaeacad2-dafd-9383-3c0e-0227dade769c "\<Finite Volume Method for Nonlinear Systems" %}}
+*   {{% resource_link ce70b6b2-dea9-62c9-1d8e-4789958e4499 "2.6.1Upwinding" %}}
+*   {{% resource_link cf738358-ae33-664a-5d71-baadd24f92cb "2.6.2The CFL Condition" %}}
+*   {{% resource_link cf738358-ae33-664a-5d71-baadd24f92cb "\>The CFL Condition" %}}
 
 2.6.1 Upwinding
 ---------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.2" "#anchorMO22" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.5" "#anchorMO25" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.6" "#anchorMO26" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.9" "#anchorMO29" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.2" "#anchorMO22" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.5" "#anchorMO25" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.6" "#anchorMO26" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.9" "#anchorMO29" %}}
 
 Consider the one-dimensional convection equation,
 
@@ -73,7 +73,7 @@ For simplicity, we will consider the specific case in which \\(u>0\\). Recall th
 
 {{< tableclose >}}
 
-This is graphically depicted in Figure {{< resource_link 6ae2bbcc-341c-d9f3-ea72-604dc4fdc5b6 "2.16" >}}. This numerical scheme has no inherent directionality as it uses a derivative approximation that is centered, taking equal (magnitude) weights from nodes to the left and right.
+This is graphically depicted in Figure {{% resource_link 6ae2bbcc-341c-d9f3-ea72-604dc4fdc5b6 "2.16" %}}. This numerical scheme has no inherent directionality as it uses a derivative approximation that is centered, taking equal (magnitude) weights from nodes to the left and right.
 
 {{< resource 6ae2bbcc-341c-d9f3-ea72-604dc4fdc5b6 >}}
 
@@ -106,7 +106,7 @@ Now consider the Forward Time-Backward Space (FTBS) method. It uses the backward
 
 {{< tableclose >}}
 
-The method is graphically depicted in Figure {{< resource_link 6d38b6b6-d2bb-cf0d-e758-3d863fc5b9d2 "2.17" >}}.
+The method is graphically depicted in Figure {{% resource_link 6d38b6b6-d2bb-cf0d-e758-3d863fc5b9d2 "2.17" %}}.
 
 {{< resource 6d38b6b6-d2bb-cf0d-e758-3d863fc5b9d2 >}}
 

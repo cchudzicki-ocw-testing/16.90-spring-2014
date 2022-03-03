@@ -9,15 +9,15 @@ title: 2.10 More on Finite Element Methods
 uid: 365c70a7-4666-ed1c-d140-8aeb96bff4a6
 ---
 
-*   {{< resource_link 62673265-55df-f200-dae2-644697a179db "\<More on Finite Element Methods" >}}
-*   {{< resource_link 62673265-55df-f200-dae2-644697a179db "2.10.1Gaussian Quadrature" >}}
-*   {{< resource_link 365c70a7-4666-ed1c-d140-8aeb96bff4a6 "2.10.2Boundary Conditions for Finite Elements" >}}
-*   {{< resource_link c782bcc9-abb3-f6bc-c638-027dfffdc386 "\>The Finite Element Method for Two-Dimensional Diffusion" >}}
+*   {{% resource_link 62673265-55df-f200-dae2-644697a179db "\<More on Finite Element Methods" %}}
+*   {{% resource_link 62673265-55df-f200-dae2-644697a179db "2.10.1Gaussian Quadrature" %}}
+*   {{% resource_link 365c70a7-4666-ed1c-d140-8aeb96bff4a6 "2.10.2Boundary Conditions for Finite Elements" %}}
+*   {{% resource_link c782bcc9-abb3-f6bc-c638-027dfffdc386 "\>The Finite Element Method for Two-Dimensional Diffusion" %}}
 
 2.10.2 Boundary Conditions for Finite Elements
 ----------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.19" "#anchorMO219" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.20" "#anchorMO220" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.19" "#anchorMO219" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.20" "#anchorMO220" %}}
 
 Boundary conditions generally fall into one of three types:
 

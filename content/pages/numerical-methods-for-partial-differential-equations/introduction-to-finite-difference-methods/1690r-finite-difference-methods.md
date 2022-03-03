@@ -9,12 +9,12 @@ title: 2.3 Introduction to Finite Difference Methods
 uid: 2687d50f-29a8-875f-7b1d-d6bf668d5db7
 ---
 
-*   {{< resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "\<Introduction to Finite Difference Methods" >}}
-*   {{< resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "2.3.1Finite Difference Approximations" >}}
-*   {{< resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2Finite Difference Methods" >}}
-*   {{< resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3Finite Difference Method Applied to 1-D Convection" >}}
-*   {{< resource_link 31ee5fcb-1e6b-78ca-5cb4-d3cb7c073c22 "2.3.4Forward Time-Backward Space FTBS" >}}
-*   {{< resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "\>Finite Difference Method Applied to 1-D Convection" >}}
+*   {{% resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "\<Introduction to Finite Difference Methods" %}}
+*   {{% resource_link 02467893-75dd-44cc-fcac-58f1a4ee9702 "2.3.1Finite Difference Approximations" %}}
+*   {{% resource_link 2687d50f-29a8-875f-7b1d-d6bf668d5db7 "2.3.2Finite Difference Methods" %}}
+*   {{% resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "2.3.3Finite Difference Method Applied to 1-D Convection" %}}
+*   {{% resource_link 31ee5fcb-1e6b-78ca-5cb4-d3cb7c073c22 "2.3.4Forward Time-Backward Space FTBS" %}}
+*   {{% resource_link 431a74fb-7dca-19ce-0c6f-e4b6a0a6446d "\>Finite Difference Method Applied to 1-D Convection" %}}
 
 2.3.2 Finite Difference Methods
 -------------------------------

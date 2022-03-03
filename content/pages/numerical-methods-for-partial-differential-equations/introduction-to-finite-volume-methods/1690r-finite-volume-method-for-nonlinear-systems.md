@@ -9,18 +9,18 @@ title: 2.5 Introduction to Finite Volume Methods
 uid: eaeacad2-dafd-9383-3c0e-0227dade769c
 ---
 
-*   {{< resource_link a9d8dcc7-e873-f01e-6dc3-6f07884b2f23 "\<Finite Volume Method for 2-D Convection on a Rectangular Mesh" >}}
-*   {{< resource_link 3d8df8b8-2291-7094-b5a6-9893808a75cc "2.5.1Finite Volume Method in 1-D" >}}
-*   {{< resource_link 767b5c96-4bd2-394b-92da-ca9fa25f2e1e "2.5.2Finite Volume Method Applied to 1-D Convection" >}}
-*   {{< resource_link d4283096-1401-99d2-0c85-a833f3518826 "2.5.3Finite Volume Method in 2-D" >}}
-*   {{< resource_link a9d8dcc7-e873-f01e-6dc3-6f07884b2f23 "2.5.4Finite Volume Method for 2-D Convection on a Rectangular Mesh" >}}
-*   {{< resource_link eaeacad2-dafd-9383-3c0e-0227dade769c "2.5.5Finite Volume Method for Nonlinear Systems" >}}
-*   {{< resource_link ce70b6b2-dea9-62c9-1d8e-4789958e4499 "\>Upwinding and the CFL Condition" >}}
+*   {{% resource_link a9d8dcc7-e873-f01e-6dc3-6f07884b2f23 "\<Finite Volume Method for 2-D Convection on a Rectangular Mesh" %}}
+*   {{% resource_link 3d8df8b8-2291-7094-b5a6-9893808a75cc "2.5.1Finite Volume Method in 1-D" %}}
+*   {{% resource_link 767b5c96-4bd2-394b-92da-ca9fa25f2e1e "2.5.2Finite Volume Method Applied to 1-D Convection" %}}
+*   {{% resource_link d4283096-1401-99d2-0c85-a833f3518826 "2.5.3Finite Volume Method in 2-D" %}}
+*   {{% resource_link a9d8dcc7-e873-f01e-6dc3-6f07884b2f23 "2.5.4Finite Volume Method for 2-D Convection on a Rectangular Mesh" %}}
+*   {{% resource_link eaeacad2-dafd-9383-3c0e-0227dade769c "2.5.5Finite Volume Method for Nonlinear Systems" %}}
+*   {{% resource_link ce70b6b2-dea9-62c9-1d8e-4789958e4499 "\>Upwinding and the CFL Condition" %}}
 
 2.5.5 Finite Volume Method for Nonlinear Systems
 ------------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.1" "#anchorMO21" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.3" "#anchorMO23" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.4" "#anchorMO24" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.1" "#anchorMO21" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.3" "#anchorMO23" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.4" "#anchorMO24" %}}
 
 The basic finite volume approach can be extended to nonlinear systems of equations such as the Euler equations. The main issue in this extension is how to calculate an upwind flux when there is a system of equations. In one dimension, the basic finite volume discretization remains the same as given by Equation [2.108](javascript: void(0)),
 

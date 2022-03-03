@@ -9,10 +9,10 @@ title: 3.1 Overview
 uid: 07ccb107-020a-5395-c317-7b0998f3ed49
 ---
 
-*   {{< resource_link 487c3b15-ab67-d7c9-5cff-a6b147049d0c "\<Probabilistic Methods and Optimization" >}}
-*   {{< resource_link 07ccb107-020a-5395-c317-7b0998f3ed49 "3.1.1Measurable Outcomes" >}}
-*   {{< resource_link 3fd6bb8d-feaf-382c-e150-3c80bd79737e "3.1.2Pre-requisite Material" >}}
-*   {{< resource_link 3fd6bb8d-feaf-382c-e150-3c80bd79737e "\>Pre-requisite Material" >}}
+*   {{% resource_link 487c3b15-ab67-d7c9-5cff-a6b147049d0c "\<Probabilistic Methods and Optimization" %}}
+*   {{% resource_link 07ccb107-020a-5395-c317-7b0998f3ed49 "3.1.1Measurable Outcomes" %}}
+*   {{% resource_link 3fd6bb8d-feaf-382c-e150-3c80bd79737e "3.1.2Pre-requisite Material" %}}
+*   {{% resource_link 3fd6bb8d-feaf-382c-e150-3c80bd79737e "\>Pre-requisite Material" %}}
 
 3.1.1 Measurable outcomes
 -------------------------

@@ -9,10 +9,10 @@ title: 1.1 Overview
 uid: 223cf785-d78e-af28-f88b-913e0d5df7b1
 ---
 
-*   {{< resource_link 5cae4847-c59a-a247-c767-3c0c6b0abef1 "\<Numerical Integration of Ordinary Differential Equations" >}}
-*   {{< resource_link 223cf785-d78e-af28-f88b-913e0d5df7b1 "1.1.1Measurable Outcomes" >}}
-*   {{< resource_link 9e0b2936-bf45-dbe7-0997-63b67bb223f3 "1.1.2Pre-requisite Material" >}}
-*   {{< resource_link 9e0b2936-bf45-dbe7-0997-63b67bb223f3 "\>Pre-requisite Material" >}}
+*   {{% resource_link 5cae4847-c59a-a247-c767-3c0c6b0abef1 "\<Numerical Integration of Ordinary Differential Equations" %}}
+*   {{% resource_link 223cf785-d78e-af28-f88b-913e0d5df7b1 "1.1.1Measurable Outcomes" %}}
+*   {{% resource_link 9e0b2936-bf45-dbe7-0997-63b67bb223f3 "1.1.2Pre-requisite Material" %}}
+*   {{% resource_link 9e0b2936-bf45-dbe7-0997-63b67bb223f3 "\>Pre-requisite Material" %}}
 
 1.1.1 Measurable outcomes
 -------------------------

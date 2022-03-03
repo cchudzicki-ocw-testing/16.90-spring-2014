@@ -9,17 +9,17 @@ title: 1.6 Systems of ODE's and Eigenvalue Stability
 uid: 36e637ce-d6ff-e05d-3606-0d537611ad2e
 ---
 
-*   {{< resource_link e726e961-fd26-9620-907a-1248b173744d "\<Dahlquist Equivalence Theorem" >}}
-*   {{< resource_link 36e637ce-d6ff-e05d-3606-0d537611ad2e "1.6.1Nonlinear Systems" >}}
-*   {{< resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "1.6.2Linear Constant Coefficient Systems" >}}
-*   {{< resource_link 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe "1.6.3Eigenvalue Stability for a Linear ODE" >}}
-*   {{< resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "1.6.4Imaginary Eigenvalues" >}}
-*   {{< resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "\>Linear Constant Coefficient Systems" >}}
+*   {{% resource_link e726e961-fd26-9620-907a-1248b173744d "\<Dahlquist Equivalence Theorem" %}}
+*   {{% resource_link 36e637ce-d6ff-e05d-3606-0d537611ad2e "1.6.1Nonlinear Systems" %}}
+*   {{% resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "1.6.2Linear Constant Coefficient Systems" %}}
+*   {{% resource_link 04ce95ca-3b3a-cc38-5d83-81923a3dd6fe "1.6.3Eigenvalue Stability for a Linear ODE" %}}
+*   {{% resource_link 64bbf174-0326-6a46-283d-2d2450cf7589 "1.6.4Imaginary Eigenvalues" %}}
+*   {{% resource_link e8dbfb22-04cb-6fc4-431e-0b32e5ea65da "\>Linear Constant Coefficient Systems" %}}
 
 1.6.1 Nonlinear Systems
 -----------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.1" "#anchorMO11" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.3" "#anchorMO13" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" >}} 
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.1" "#anchorMO11" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.3" "#anchorMO13" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.6" "#anchorMO16" %}} 
 
 For a system of ODE's, we have the same canonical form as for a scalar (see Equation [1.8](javascript: void(0))),
 
@@ -114,13 +114,13 @@ For this example,
 
 {{< tableclose >}}
 
-A forward Euler method was used to simulate the motion of a pendulum (with \\(L\\) = 1 m, \\(g = 9.8\\) m/sec\\(^2\\)) released from rest at an angle of \\(45^\\circ\\) at a timestep of \\({\\Delta t}= 0.02\\) seconds. The results are shown in Figure {{< resource_link 68cea58b-b729-83ae-c648-90d3e3ab02ba "1.8" >}}. While the oscillatory motion is evident, the amplitude is growing which is not expected physically. This would indicate some kind of numerical stability problem. Note, however, that if a smaller \\({\\Delta t}\\) were used, the amplification would still be present but not as significant.
+A forward Euler method was used to simulate the motion of a pendulum (with \\(L\\) = 1 m, \\(g = 9.8\\) m/sec\\(^2\\)) released from rest at an angle of \\(45^\\circ\\) at a timestep of \\({\\Delta t}= 0.02\\) seconds. The results are shown in Figure {{% resource_link 68cea58b-b729-83ae-c648-90d3e3ab02ba "1.8" %}}. While the oscillatory motion is evident, the amplitude is growing which is not expected physically. This would indicate some kind of numerical stability problem. Note, however, that if a smaller \\({\\Delta t}\\) were used, the amplification would still be present but not as significant.
 
 {{< resource 68cea58b-b729-83ae-c648-90d3e3ab02ba >}}
 
 **Figure 1.8**: Forward Euler solution for nonlinear pendulum with \\(L\\) = 1 m, \\(g = 9.8\\) m/sec\\(^2\\), and \\({\\Delta t}= 0.02\\) seconds.
 
-The same problem was also simulated using the midpoint method. These results are shown in Figure {{< resource_link 77efec06-ade3-ce91-9e41-a7fca9df929c "1.9" >}}. For this method and \\({\\Delta t}\\) choice, the oscillation amplitude is constant and indicates that the midpoint method is a better choice for this problem than the forward Euler method.
+The same problem was also simulated using the midpoint method. These results are shown in Figure {{% resource_link 77efec06-ade3-ce91-9e41-a7fca9df929c "1.9" %}}. For this method and \\({\\Delta t}\\) choice, the oscillation amplitude is constant and indicates that the midpoint method is a better choice for this problem than the forward Euler method.
 
 {{< resource 77efec06-ade3-ce91-9e41-a7fca9df929c >}}
 

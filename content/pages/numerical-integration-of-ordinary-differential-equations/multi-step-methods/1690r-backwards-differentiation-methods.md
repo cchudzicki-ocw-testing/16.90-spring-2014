@@ -9,17 +9,17 @@ title: 1.8 Multi-Step Methods
 uid: 998bd383-00b6-8dbd-2d38-c251f8262e37
 ---
 
-*   {{< resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "\<Adams-Moulton Methods" >}}
-*   {{< resource_link 67717326-dffb-7444-5162-101fd9a9ec91 "1.8.1Adams-Bashforth Methods" >}}
-*   {{< resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "1.8.2Adams-Moulton Methods" >}}
-*   {{< resource_link 998bd383-00b6-8dbd-2d38-c251f8262e37 "1.8.3Backwards Differentiation Methods" >}}
-*   {{< resource_link f02cecfe-1cd4-8c17-eeff-25be1aaa895d "1.8.4Backwards Differentiation Excercise" >}}
-*   {{< resource_link f02cecfe-1cd4-8c17-eeff-25be1aaa895d "\>Backwards Differentiation Excercise" >}}
+*   {{% resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "\<Adams-Moulton Methods" %}}
+*   {{% resource_link 67717326-dffb-7444-5162-101fd9a9ec91 "1.8.1Adams-Bashforth Methods" %}}
+*   {{% resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "1.8.2Adams-Moulton Methods" %}}
+*   {{% resource_link 998bd383-00b6-8dbd-2d38-c251f8262e37 "1.8.3Backwards Differentiation Methods" %}}
+*   {{% resource_link f02cecfe-1cd4-8c17-eeff-25be1aaa895d "1.8.4Backwards Differentiation Excercise" %}}
+*   {{% resource_link f02cecfe-1cd4-8c17-eeff-25be1aaa895d "\>Backwards Differentiation Excercise" %}}
 
 1.8.3 Backwards Differentiation Methods
 ---------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.12" "#anchorMO112" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.15" "#anchorMO115" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.17" "#anchorMO117" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.18" "#anchorMO118" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.12" "#anchorMO112" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.15" "#anchorMO115" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.17" "#anchorMO117" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.18" "#anchorMO118" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" %}}
 
 Backwards differentiation methods are some of the best multi-step methods for stiff problems. The backwards differentiation formulae are of the form,
 
@@ -254,7 +254,7 @@ The stability boundary for these methods are shown below. As can be seen, all of
 MATLAB{{< sup "®" >}}'s ODE Integrators
 ---------------------------------------
 
-MATLAB has a a set of tools for integration of ODE's. We will briefly look at two of them: **ode45** and **ode15s**. **ode45** is designed to solve problems that are not stiff while **ode15s** is intended for stiff problems. **ode45** is based on a four and five-stage Runge-Kutta integration (discussed in Section {{< resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "1.9" >}}), while **ode15s** is based on a range of highly stable implicit integration formulas (one option when using **ode15s** is to use the backwards differentiation formulas). As a short illustration on how these MATLAB ODE integrators are implemented, the following script solves the one-dimensional diffusion problem from Section {{< resource_link 935324e3-1ab2-cb57-9059-0ba1f034fcd5 "1.7.1" >}} using either **ode45** or **ode15s**. The specific problem we consider here is a bar which is initially at a temperature \\(T\_{init} = 400 K\\) and at \\(t=0\\), the temperature at the left and right ends is suddenly raised to \\(800 K\\) and \\(1000 K\\), respectively.
+MATLAB has a a set of tools for integration of ODE's. We will briefly look at two of them: **ode45** and **ode15s**. **ode45** is designed to solve problems that are not stiff while **ode15s** is intended for stiff problems. **ode45** is based on a four and five-stage Runge-Kutta integration (discussed in Section {{% resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "1.9" %}}), while **ode15s** is based on a range of highly stable implicit integration formulas (one option when using **ode15s** is to use the backwards differentiation formulas). As a short illustration on how these MATLAB ODE integrators are implemented, the following script solves the one-dimensional diffusion problem from Section {{% resource_link 935324e3-1ab2-cb57-9059-0ba1f034fcd5 "1.7.1" %}} using either **ode45** or **ode15s**. The specific problem we consider here is a bar which is initially at a temperature \\(T\_{init} = 400 K\\) and at \\(t=0\\), the temperature at the left and right ends is suddenly raised to \\(800 K\\) and \\(1000 K\\), respectively.
 
 % MATLAB script: dif1d\_main.m
 %
@@ -372,7 +372,7 @@ As can be seen from **dif1d\_fun**, \\(A\\) and \\(b\\) have been passed into th
 
 The major difference between the implementation of the ODE integrators in MATLAB and our discussions is that MATLAB's implementations are adaptive. Specifically, MATLAB's integrators estimate the error at each iteration and then adjust the timestep to either improve the accuracy (i.e. by decreasing the timestep) or efficiency (i.e. by increasing the timestep).
 
-The results for the stiff integrator, **ode15s** are shown in Figure {{< resource_link 68c3f1b4-6bc7-0f77-f3f9-b4ae7782a553 "1.22" >}}.
+The results for the stiff integrator, **ode15s** are shown in Figure {{% resource_link 68c3f1b4-6bc7-0f77-f3f9-b4ae7782a553 "1.22" %}}.
 
 {{< resource 68c3f1b4-6bc7-0f77-f3f9-b4ae7782a553 >}}
 
@@ -388,7 +388,7 @@ The results for the stiff integrator, **ode15s** are shown in Figure {{< resour
 
 These results look as expected (note: in integrating from \\(t=0\\) to \\(t=0.5\\), a total of 64 timesteps were taken).
 
-The results for the non-stiff integrator are shown in Figure {{< resource_link 96daf9d7-94ec-9a99-cd50-ed8e56ce1c30 "1.23" >}} and in a zoomed view in Figure {{< resource_link 6215e00a-ce11-f28c-4567-f14a88a3275a "1.24" >}}. The presence of small scale oscillations can be clearly observed in the **ode45** results. These oscillations are a result of the large negative eigenvalues which require small \\({\\Delta t}\\) to maintain stability. Since the **ode45** method is adaptive, the timestep automatically decreases to maintain stability, but the oscillatory results clearly show that the stability is barely achieved. Also, as a measure of the relative inefficiency of the **ode45** integrator for this stiff problem, note that 6273 timesteps were required to integrate from \\(t=0\\) to \\(t=0.5\\).
+The results for the non-stiff integrator are shown in Figure {{% resource_link 96daf9d7-94ec-9a99-cd50-ed8e56ce1c30 "1.23" %}} and in a zoomed view in Figure {{% resource_link 6215e00a-ce11-f28c-4567-f14a88a3275a "1.24" %}}. The presence of small scale oscillations can be clearly observed in the **ode45** results. These oscillations are a result of the large negative eigenvalues which require small \\({\\Delta t}\\) to maintain stability. Since the **ode45** method is adaptive, the timestep automatically decreases to maintain stability, but the oscillatory results clearly show that the stability is barely achieved. Also, as a measure of the relative inefficiency of the **ode45** integrator for this stiff problem, note that 6273 timesteps were required to integrate from \\(t=0\\) to \\(t=0.5\\).
 
 One final concern regarding the efficiency of the stiff integrator **ode15s**. In order for this method to work in an efficient manner for large systems of equations such as in this example, it is very important that the Jacobian matrix, \\({\\partial f}/{\\partial u}\\) be provided to MATLAB. If this is not done, then **ode15s** will construct an approximation to this derivative matrix using finite differences and for large systems, this will become a significant cost. In the script **dif1d\_main**, the Jacobian is communicated to the **ode15s** integrator using the **odeset** routine. Note: **ode45** is an explicit method and does not need the Jacobian so it is not provided in that case.
 

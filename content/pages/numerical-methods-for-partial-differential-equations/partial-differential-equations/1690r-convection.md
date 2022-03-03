@@ -9,24 +9,24 @@ title: 2.2 Partial Differential Equations
 uid: 5b35a359-99c0-aad1-8b33-6126f6b0a143
 ---
 
-*   {{< resource_link 53d47d94-d1a2-5853-95d6-3d7a71ad1144 "\<One-Dimensional Burgers Equation" >}}
-*   {{< resource_link 735249e6-5cf9-7136-d3a6-4f4d3458178c "2.2.1Conservation Laws in Integral and Differential Form" >}}
-*   {{< resource_link 53d47d94-d1a2-5853-95d6-3d7a71ad1144 "2.2.2One-Dimensional Burgers Equation" >}}
-*   {{< resource_link 5b35a359-99c0-aad1-8b33-6126f6b0a143 "2.2.3Convection" >}}
-*   {{< resource_link 24dc2345-7e49-426d-09d2-77e4cb2d00f0 "2.2.4Characteristics for One-Dimensional Burgers Equation" >}}
-*   {{< resource_link 91200789-ca43-fa38-473a-bc690667c305 "2.2.5Diffusion" >}}
-*   {{< resource_link e6408661-a4be-8cfb-3204-ee1581c8dff1 "2.2.6Convection-Diffusion" >}}
-*   {{< resource_link d923673e-05c6-3f48-9244-d3fc50c46901 "2.2.7Linear Elasticity" >}}
-*   {{< resource_link 24dc2345-7e49-426d-09d2-77e4cb2d00f0 "\>Characteristics for One-Dimensional Burgers Equation" >}}
+*   {{% resource_link 53d47d94-d1a2-5853-95d6-3d7a71ad1144 "\<One-Dimensional Burgers Equation" %}}
+*   {{% resource_link 735249e6-5cf9-7136-d3a6-4f4d3458178c "2.2.1Conservation Laws in Integral and Differential Form" %}}
+*   {{% resource_link 53d47d94-d1a2-5853-95d6-3d7a71ad1144 "2.2.2One-Dimensional Burgers Equation" %}}
+*   {{% resource_link 5b35a359-99c0-aad1-8b33-6126f6b0a143 "2.2.3Convection" %}}
+*   {{% resource_link 24dc2345-7e49-426d-09d2-77e4cb2d00f0 "2.2.4Characteristics for One-Dimensional Burgers Equation" %}}
+*   {{% resource_link 91200789-ca43-fa38-473a-bc690667c305 "2.2.5Diffusion" %}}
+*   {{% resource_link e6408661-a4be-8cfb-3204-ee1581c8dff1 "2.2.6Convection-Diffusion" %}}
+*   {{% resource_link d923673e-05c6-3f48-9244-d3fc50c46901 "2.2.7Linear Elasticity" %}}
+*   {{% resource_link 24dc2345-7e49-426d-09d2-77e4cb2d00f0 "\>Characteristics for One-Dimensional Burgers Equation" %}}
 
 2.2.3 Convection
 ----------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.1" "#anchorMO21" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.2" "#anchorMO22" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.5" "#anchorMO25" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.1" "#anchorMO21" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.2" "#anchorMO22" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.5" "#anchorMO25" %}}
 
 [Convection](http://en.wikipedia.org/wiki/Convection) is the concerted, collective movement of groups or aggregates of molecules within fluids. It is a transport mechanism of a substance or conserved property by a fluid due to the fluid's bulk motion. An example of convection is the transport of pollutants or silt in a river by bulk water flow downstream. Another commonly convected quantity is energy or enthalpy. Here the fluid may be any material that contains thermal energy, such as water or air. In general, any substance or conserved, extensive quantity can be convected by a fluid that can hold or contain the quantity or substance. Convection occurs on a large scale in atmospheres, oceans, planetary mantles, and it provides the mechanism of heat transfer for a large fraction of the outermost interiors of our sun and all stars. Fluid movement during convection may be invisibly slow, or it may be obvious and rapid, as in a hurricane. On astronomical scales, convection of gas and dust is thought to occur in the accretion disks of black holes, at speeds which may closely approach that of light.
 
-In many applications, especially those in fluid dynamics, convection is the dominant physical transport mechanism over much of the domain of interest. While diffusion (see Section {{< resource_link 91200789-ca43-fa38-473a-bc690667c305 "2.2.5" >}}) is always present, often its effects are smaller except in limited regions (often near solid boundaries where boundary layers form due to the combined effects of diffusion and convection).
+In many applications, especially those in fluid dynamics, convection is the dominant physical transport mechanism over much of the domain of interest. While diffusion (see Section {{% resource_link 91200789-ca43-fa38-473a-bc690667c305 "2.2.5" %}}) is always present, often its effects are smaller except in limited regions (often near solid boundaries where boundary layers form due to the combined effects of diffusion and convection).
 
 In this section, we will derive the convection equation using the conservation law as given in Equation [2.1](javascript: void(0)). Specifically, let \\(U\\) be the 'conserved' scalar quantity, e.g., mass, energy, momentum, number of atoms or amount of "stuff" per unit volume, per unit area or per unit length. Let the flux of \\(U\\) be given by,
 
@@ -277,7 +277,7 @@ on the domain \\(\\Omega = \[0,2\]\\), with constant flow velocity \\(v=1\\). Th
 
 {{< tableclose >}}
 
-Figure {{< resource_link 301c64b6-5694-04b6-9aed-376bcad4b476 "2.1" >}} plots the initial solution \\(U\_0\\) as well as \\(U\\) at \\(t=1\\).
+Figure {{% resource_link 301c64b6-5694-04b6-9aed-376bcad4b476 "2.1" %}} plots the initial solution \\(U\_0\\) as well as \\(U\\) at \\(t=1\\).
 
 {{< resource 301c64b6-5694-04b6-9aed-376bcad4b476 >}}
 
@@ -310,7 +310,7 @@ Looking at the solution for the one-dimensional convection problem, we observe t
 
 {{< tableclose >}}
 
-Comparing this to Equation [2.29](javascript: void(0)), we see that if \\(\\frac{dx}{dt}=v\\), then \\(\\frac{dU}{dt}=0\\) (i.e., \\(U=\\) constant). In other words, the characteristic for the convection equation is a line with slope \\(v\\). Figure {{< resource_link 435d2655-0cab-e412-5f9b-8ea77d693a80 "2.2" >}} shows the characteristic lines for the one-dimensional convection problem (in dashed lines) with the solutions at \\(t=0\\) and \\(t=1\\) superimposed. As we can see from Figure {{< resource_link 435d2655-0cab-e412-5f9b-8ea77d693a80 "2.2" >}}, the solution at \\((x,t)\\) is simply obtained by following the characteristic line back to \\(t=0\\) and evaluating the initial condition.
+Comparing this to Equation [2.29](javascript: void(0)), we see that if \\(\\frac{dx}{dt}=v\\), then \\(\\frac{dU}{dt}=0\\) (i.e., \\(U=\\) constant). In other words, the characteristic for the convection equation is a line with slope \\(v\\). Figure {{% resource_link 435d2655-0cab-e412-5f9b-8ea77d693a80 "2.2" %}} shows the characteristic lines for the one-dimensional convection problem (in dashed lines) with the solutions at \\(t=0\\) and \\(t=1\\) superimposed. As we can see from Figure {{% resource_link 435d2655-0cab-e412-5f9b-8ea77d693a80 "2.2" %}}, the solution at \\((x,t)\\) is simply obtained by following the characteristic line back to \\(t=0\\) and evaluating the initial condition.
 
 {{< resource 435d2655-0cab-e412-5f9b-8ea77d693a80 >}}
 

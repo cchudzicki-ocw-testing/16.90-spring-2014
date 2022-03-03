@@ -9,10 +9,10 @@ title: 2.1 Overview
 uid: 1544cfcd-73e6-31b3-4c33-e1da2e8ef635
 ---
 
-*   {{< resource_link 83cf414c-172d-b4cc-a6f5-1749a486c94a "\<Overview" >}}
-*   {{< resource_link 83cf414c-172d-b4cc-a6f5-1749a486c94a "2.1.1Measurable Outcomes" >}}
-*   {{< resource_link 1544cfcd-73e6-31b3-4c33-e1da2e8ef635 "2.1.2Pre-requisite Material" >}}
-*   {{< resource_link 735249e6-5cf9-7136-d3a6-4f4d3458178c "\>Partial Differential Equations" >}}
+*   {{% resource_link 83cf414c-172d-b4cc-a6f5-1749a486c94a "\<Overview" %}}
+*   {{% resource_link 83cf414c-172d-b4cc-a6f5-1749a486c94a "2.1.1Measurable Outcomes" %}}
+*   {{% resource_link 1544cfcd-73e6-31b3-4c33-e1da2e8ef635 "2.1.2Pre-requisite Material" %}}
+*   {{% resource_link 735249e6-5cf9-7136-d3a6-4f4d3458178c "\>Partial Differential Equations" %}}
 
 2.1.2 Pre-requisite material
 ----------------------------

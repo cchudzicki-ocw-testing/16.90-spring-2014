@@ -30,7 +30,7 @@ videos:
 
 This page presents lecture videos for most class sessions. Videos for Sessions 9, 13–14, 17–20, and 22 are not available.
 
-Notes accompanying each video (except for Sessions 1 and 25) are linked on the 'Lecture Notes' tab below the video player. The notes are also presented separately on the {{< resource_link 88a44a6b-ab5e-a4b6-5c5c-1379cb3476ce "Lecture Notes" >}} page.
+Notes accompanying each video (except for Sessions 1 and 25) are linked on the 'Lecture Notes' tab below the video player. The notes are also presented separately on the {{% resource_link 88a44a6b-ab5e-a4b6-5c5c-1379cb3476ce "Lecture Notes" %}} page.
 
 Student-written MATLAB® code displayed in some videos is courtesy of the students and used with permission. 
 

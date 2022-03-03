@@ -9,17 +9,17 @@ title: 3.4 Error Estimates for the Monte Carlo Method
 uid: ed041125-462b-3411-0831-40b32f255066
 ---
 
-*   {{< resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "\<Error Estimates for the Monte Carlo Method" >}}
-*   {{< resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "3.4.1The Error in Estimating the Mean" >}}
-*   {{< resource_link ed041125-462b-3411-0831-40b32f255066 "3.4.2The Error in Estimating Probabilities" >}}
-*   {{< resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "3.4.3The Error in Estimating the Variance" >}}
-*   {{< resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "3.4.4Bootstrapping" >}}
-*   {{< resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "\>The Error in Estimating the Variance" >}}
+*   {{% resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "\<Error Estimates for the Monte Carlo Method" %}}
+*   {{% resource_link 74bb46fc-55cb-5dc9-1f9b-7be6791726ec "3.4.1The Error in Estimating the Mean" %}}
+*   {{% resource_link ed041125-462b-3411-0831-40b32f255066 "3.4.2The Error in Estimating Probabilities" %}}
+*   {{% resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "3.4.3The Error in Estimating the Variance" %}}
+*   {{% resource_link 22e0637c-8322-5bd8-a9d4-e80723fbc928 "3.4.4Bootstrapping" %}}
+*   {{% resource_link 9fcaf3a2-fde9-2040-23cd-8a8ace84e37f "\>The Error in Estimating the Variance" %}}
 
 3.4.2 The Error In Estimating Probabilities
 -------------------------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.8" "#anchorMO38" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.11" "#anchorMO311" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.12" "#anchorMO312" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.8" "#anchorMO38" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.11" "#anchorMO311" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 3.12" "#anchorMO312" %}}
 
 Often, Monte Carlo simulations are used to estimate the probability of an event occurring. For example, in the turbine blade example, we might be interested in the probability that the hot metal temperature exceeds a critical value. Generically, suppose that the event of interest is \\(A\\). Then, an estimate of \\(P\\{ A\\}\\) is the fraction of times the event \\(A\\) occurs out of the total number of trials,
 

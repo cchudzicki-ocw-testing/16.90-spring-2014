@@ -9,17 +9,17 @@ title: 2.8 Method of Weighted Residuals
 uid: 06f65fc2-70a3-d410-b331-d186ad67852a
 ---
 
-*   {{< resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "\<Method of Weighted Residuals" >}}
-*   {{< resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1Functional Approximation of the Solution" >}}
-*   {{< resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "2.8.2The Collocation Method" >}}
-*   {{< resource_link 2bb791a5-f105-8421-b20e-147e46034287 "2.8.3The Method of Weighted Residuals" >}}
-*   {{< resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "2.8.4Galerkin Method with New Basis" >}}
-*   {{< resource_link 2bb791a5-f105-8421-b20e-147e46034287 "\>The Method of Weighted Residuals" >}}
+*   {{% resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "\<Method of Weighted Residuals" %}}
+*   {{% resource_link bda18124-71a5-87a7-513f-cb81480a1e18 "2.8.1Functional Approximation of the Solution" %}}
+*   {{% resource_link 06f65fc2-70a3-d410-b331-d186ad67852a "2.8.2The Collocation Method" %}}
+*   {{% resource_link 2bb791a5-f105-8421-b20e-147e46034287 "2.8.3The Method of Weighted Residuals" %}}
+*   {{% resource_link b85dba09-9fd2-582c-61f1-a5573f5c79a5 "2.8.4Galerkin Method with New Basis" %}}
+*   {{% resource_link 2bb791a5-f105-8421-b20e-147e46034287 "\>The Method of Weighted Residuals" %}}
 
 2.8.2 The Collocation Method
 ----------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.12" "#anchorMO212" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.13" "#anchorMO213" >}} 
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.12" "#anchorMO212" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 2.13" "#anchorMO213" %}} 
 
 One approach to determine the \\(N\\) unknown values of \\(a\_ j\\) would be to enforce the governing PDE at \\(N\\) spatial points in the domain (i.e., to make sure that the the approximate solution exactly satisfies the PDE at \\(N\\) points). Note that in general, the exact solution will not be a linear combination of the \\(\\phi \_ j(x)\\), so it will not be possible for our approximate solution to satisfy the PDE at every point in the domain. To see this, let's substitute our approximate solution \\(\\tilde{T}(x)= 100 + a\_1 \\phi \_1(x) + a\_2 \\phi \_2(x)\\) into Equation  [2.149](javascript: void(0)). First, let's derive an expression for \\(\\tilde{T}\_{xx}\\):
 

@@ -9,17 +9,17 @@ title: 1.8 Multi-Step Methods
 uid: 67717326-dffb-7444-5162-101fd9a9ec91
 ---
 
-*   {{< resource_link 84564160-240c-f3be-e329-df42818d2eaa "\<Apply Newton-Rhapson" >}}
-*   {{< resource_link 67717326-dffb-7444-5162-101fd9a9ec91 "1.8.1Adams-Bashforth Methods" >}}
-*   {{< resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "1.8.2Adams-Moulton Methods" >}}
-*   {{< resource_link 998bd383-00b6-8dbd-2d38-c251f8262e37 "1.8.3Backwards Differentiation Methods" >}}
-*   {{< resource_link f02cecfe-1cd4-8c17-eeff-25be1aaa895d "1.8.4Backwards Differentiation Excercise" >}}
-*   {{< resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "\>Adams-Moulton Methods" >}}
+*   {{% resource_link 84564160-240c-f3be-e329-df42818d2eaa "\<Apply Newton-Rhapson" %}}
+*   {{% resource_link 67717326-dffb-7444-5162-101fd9a9ec91 "1.8.1Adams-Bashforth Methods" %}}
+*   {{% resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "1.8.2Adams-Moulton Methods" %}}
+*   {{% resource_link 998bd383-00b6-8dbd-2d38-c251f8262e37 "1.8.3Backwards Differentiation Methods" %}}
+*   {{% resource_link f02cecfe-1cd4-8c17-eeff-25be1aaa895d "1.8.4Backwards Differentiation Excercise" %}}
+*   {{% resource_link 75e73977-a306-f553-2134-b4e0a24fdb81 "\>Adams-Moulton Methods" %}}
 
 1.8.1 Adams-Bashforth Methods
 -----------------------------
 
-{{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.15" "#anchorMO115" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.17" "#anchorMO117" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.18" "#anchorMO118" >}}, {{< resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" >}}
+{{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.15" "#anchorMO115" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.17" "#anchorMO117" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.18" "#anchorMO118" %}}, {{% resource_link 6018b2cc-123e-d80f-52d9-19c7a1393c2e "Measurable Outcome 1.19" "#anchorMO119" %}}
 
 Adams-Bashforth methods are explicit methods of the form,
 
@@ -216,6 +216,6 @@ The coefficients for the first through fourth order methods are given in the tab
 
 **Figure 1.19**: Adams-Bashforth stability regions for \\(p=1\\) through \\(p=4\\) methods. Note: interior of contours is stable region.
 
-The stability boundary for these methods are shown in Figure {{< resource_link 994a70be-6287-f90b-9807-211940376999 "1.19" >}}. As the order of accuracy increases, the stability regions become smaller. Note, this is the opposite of Runge-Kutta methods for which the size of the stability regions increases with increased accuracy (see Section {{< resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "1.9" >}}).
+The stability boundary for these methods are shown in Figure {{% resource_link 994a70be-6287-f90b-9807-211940376999 "1.19" %}}. As the order of accuracy increases, the stability regions become smaller. Note, this is the opposite of Runge-Kutta methods for which the size of the stability regions increases with increased accuracy (see Section {{% resource_link c5e7e539-a82c-8e62-0c8a-e738a18f6f10 "1.9" %}}).
 
 BackApply Newton-Rhapson ContinueAdams-Moulton Methods
