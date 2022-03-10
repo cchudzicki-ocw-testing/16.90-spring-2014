@@ -19,9 +19,9 @@ uid: 9e0b2936-bf45-dbe7-0997-63b67bb223f3
 
 Before reading this chapter, you may wish to review...
 
-1.  [Video: solutions of first-order ODEs](/courses/18-03-differential-equations-spring-2010/content/resources/lecture-3-solving-first-order-linear-odes)
+1.  [Video: solutions of first-order ODEs](/courses/18-03-differential-equations-spring-2010/resources/lecture-3-solving-first-order-linear-odes)
     
-2.  [Video: Taylor series expansions](/courses/18-01-single-variable-calculus-fall-2006/content/resources/lecture-38-taylors-series)
+2.  [Video: Taylor series expansions](/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-38-taylors-series)
     
 3.  [MATLAB© plotting basics](http://www.mathworks.com/help/matlab/)
     

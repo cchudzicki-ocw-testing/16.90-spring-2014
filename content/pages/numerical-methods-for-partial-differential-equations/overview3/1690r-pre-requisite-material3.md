@@ -19,9 +19,9 @@ uid: 1544cfcd-73e6-31b3-4c33-e1da2e8ef635
 
 Before reading this chapter, you may wish to review...
 
-*   [Partial derivatives, chain rule, gradients](/courses/18-02sc-multivariable-calculus-fall-2010/content/pages/2.-partial-derivatives/part-b-chain-rule-gradient-and-directional-derivatives/_index)
+*   [Partial derivatives, chain rule, gradients](/courses/18-02sc-multivariable-calculus-fall-2010/pages/2.-partial-derivatives/part-b-chain-rule-gradient-and-directional-derivatives/_index)
     
-*   [Divergence Theorem](/courses/18-02sc-multivariable-calculus-fall-2010/content/pages/4.-triple-integrals-and-surface-integrals-in-3-space/part-b-flux-and-the-divergence-theorem/session-84-divergence-theorem)
+*   [Divergence Theorem](/courses/18-02sc-multivariable-calculus-fall-2010/pages/4.-triple-integrals-and-surface-integrals-in-3-space/part-b-flux-and-the-divergence-theorem/session-84-divergence-theorem)
     
 *   Euler equations for inviscid compressible flows.
     
