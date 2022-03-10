@@ -7,7 +7,7 @@ learning_resource_types:
 ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '[Probabilistic Methods & Optimization: Intro to Optimization Methods
-  (PDF)](resources/mit16_90s14_lecture23)'
+  (PDF)](/courses/16-90-computational-methods-in-aerospace-engineering-spring-2014/resources/mit16_90s14_lecture23)'
 parent_title: Lecture Videos
 parent_type: CourseSection
 related_resources_text: ''

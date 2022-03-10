@@ -7,7 +7,7 @@ learning_resource_types:
 ocw_type: ''
 optional_tab_title: Lecture Notes
 optional_text: '![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Probabilistic
-  Methods & Optimization: Statistical Sampling Methods (PDF - 1.5MB)](resources/mit16_90s14_lecture21)'
+  Methods & Optimization: Statistical Sampling Methods (PDF - 1.5MB)](/courses/16-90-computational-methods-in-aerospace-engineering-spring-2014/resources/mit16_90s14_lecture21)'
 parent_title: Lecture Videos
 parent_type: CourseSection
 related_resources_text: ''
